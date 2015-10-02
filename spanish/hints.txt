@@ -1,0 +1,49 @@
+﻿/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/*
+*<fs_hint_tag></fs_hint_tag>
+*<fs_tex_tag>manual/hints_textures/</fs_tex_tag>
+*/
+
+/* Hints database  */
+{
+	"LOOT" : "<fs_hint_tag>LOOT_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/loot</fs_tex_tag><fs_hint_tag>LOOT_2</fs_hint_tag>",
+	"LOOT_NAME" : "Botín",
+	"LOOT_1" : "Los objetos registrables aparecerán resaltados en azul. Debes estar lo suficientemente cerca para poder buscar en ellos.",
+	"LOOT_2" : "Puedes arrastrar los ítems de los objetos registrables uno por uno o todos de golpe, pulsando el botón \"Coger Todo\" . Para cerrar la ventana pulsa E, aléjate del objeto o bien pulsa \"Salir\".",
+	"DOORS" : "<fs_hint_tag>DOORS_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_latch</fs_tex_tag><fs_hint_tag>DOORS_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_key</fs_tex_tag><fs_hint_tag>DOORS_3</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_code</fs_tex_tag><fs_hint_tag>DOORS_4</fs_hint_tag>",
+	"DOORS_NAME" : "Puertas",
+	"DOORS_1" : "Todas las puertas con las que puedes interactuar estarán resaltadas en verde. Para abrir/cerrar una puerta que no este bloqueada pulsa \"E\".\n A veces las puertas estarán cerradas, para poder acceder a la cerradura debes pulsar \"E\".\n Hay cinco tipos de cerraduras en el juego:\n\n1) Pestillo - Simplemente muévelo hacia la derecha para abrir la puerta.",
+	"DOORS_2" : "2) Cerradura mecánica - Este tipo de cerradura necesita la llave o una ganzúa para poder abrirla. Las cerraduras tienen diferentes niveles de dificultad, por lo que en algunos casos deberemos tener un nivel alto de forzado de cerraduras.",
+	"DOORS_3" : "3) Cerradura electrónica - Funciona de manera similar a la Mecánica, pero requiere electricidad para que funcione.\n4) Cerradura con código - Una cerradura muy compleja, para abrirla necesitas o bien el código o un alto nivel en forzado de cerraduras.",
+	"DOORS_4" : "5) Cerradura rota - la cerradura se ha roto y no puedes hacer nada con ella. Busca otra manera de entrar en ese sitio.\n\n[i]Consejo \"Las puertas de madera pueden abrirse usando la fuerza bruta, pero recuerda, el ruido atraerá a enemigos.\"[/i]",
+	"REST" : "<fs_hint_tag>REST_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/rest_bed</fs_tex_tag><fs_hint_tag>REST_2</fs_hint_tag>",
+	"REST_NAME" : "Descansar",
+	"REST_1" : "El personaje puede descansar en camas con colchones y bañeras [i][b]vacías[/b][/i], pero asegúrate de estar en un lugar seguro. Los enemigos pueden matarte mientras duermes.",
+	"REST_2" : "Mientras duermes tu personaje recuperara parte de su salud - 10 puntos de vida por hora.\n[i]Consejo \"Factores negativos como el frío o hambre continuaran afectándote mientras duermes\"[/i]\n\n Si tu personaje acaba de ser gravemente herido o tiene la vida baja, el/ella no podrá dormir hasta que se haya curado lo suficiente.",
+	"CAMPFIRE" : "<fs_hint_tag>CAMPFIRE_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_setup</fs_tex_tag><fs_hint_tag>CAMPFIRE_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_panel</fs_tex_tag><fs_hint_tag>CAMPFIRE_3</fs_hint_tag>",
+	"CAMPFIRE_NAME" : "Hoguera",
+	"CAMPFIRE_1" : "Las hogueras son el recurso mas simple para obtener algo de calor. Para crear una hoguera necesitaras: madera seca, papel y cerillas.\n\nPara crear una hoguera haz click en el mundo con BDR y selecciona USAR, después cierra el LUCH-12. La silueta azul de la hoguera aparecerá, haz click con BIR o si quieres cancelar pulsa \"Q\" . De manera alternativa, puedes equipar la hoguera en uno de los espacios suplementario para hacerlo más rápido. En tal caso puedes hacer la hoguera sin abrir el LUCH-12. Solamente presiona \"Q\" y la silueta azul aparecerá, presiona BIR para confirmar.",
+	"CAMPFIRE_2" : "El fuego tiene una duración, pero puedes hacer que dure mas añadiendo madera mientras esta activo. Haz click en el botón con el icono de madera en la esquina superior izquierda para así añadir más madera.",
+	"CAMPFIRE_3" : "Todos los ingredientes crudos, los cuales no se pueden consumir en este estado, pueden ser cocinados en la hoguera. Simplemente arrastra y suelta los ingredientes que te gustaría cocinar en el espacio \"Crudo\" .",
+    
+    //Event hints
+    "WELCOME_NAME" : "Bienvenido a Duga 40",
+    "WELCOME" : "Esta casa abandonada se ha convertido temporalmente en tu hogar. Has trabajado duro para fortificarla y así protegerte de híbridos y visitantes no bienvenidos. Pero tus suministros han ido acabándose y debes ir a la Ciudad para obtener más.\n\nRevisa la casa para ver que hace falta. Es una buena idea empezar por los bolsillos, pulsa \"Tab\" para abrir el \"LUCH-12\".\n\nSi tienes lo necesario, crea unas hogueras, seguramente nos ayudaran.\n\nNo te olvides de vestirte, el frío te mataría rápidamente.\n\nantes de irte de casa, echa un ojo al Manual que se ha descargado en tu LUCH-12. EN el deberían explicarte lo básico para sobrevivir.\n\n Algunas ventanas dentro del juego pueden tener consejos y pistas muy útiles. Presiona el icono con el interrogante para ver una pista.\n\nPuedes desactivar las pistas en ajustes.",
+    "DOORS1_NAME" : "Puertas",
+    "DOORS1" : "La cerradura con contraseña es un buen método para protegerse de los ladrones. La gente a menudo deja pistas para recordar las contraseñas. Algunas pistas son mas evidentes que otras, intenta buscar a tu alrededor, quizás tenga suerte.\n\nSin embargo, no importa lo fuerte que una cerradura sea si esta está en una puerta de madera. Las puertas de madera no pueden ganar a un hacha.",
+    "SLEEP_NAME" : "Dormir",
+    "SLEEP" : "La temperatura en la noche es impredecible, puede desplomarse en un abrir y cerrar de ojos. Mucha gente a muerto mientras duerme por este motivo.\n\nIntenta encontrar una casa vacía con una habitación sin ventanas rotas, así podrás protegerte un poco del frío. Pon una hoguera cerca de tu cama antes de echarte a descansar.\n\n¡No duermas durante mucho tiempo!",
+    "ZONES_NAME" : "Zonas",
+    "ZONES" : "Puedes viajar de una zona a otro caminado dentro de una zona de transición(líneas diagonales verdes en el suelo)",
+    "FIRE_NAME" : "Hogueras",
+    "FIRE" : "Intenta encender un fuego. Es muy importante entender como funciona.\n\nHay dos formas de encender una hoguera.\n\nLa primera - pulsa \"Tab\" para abrir el LUCH-12, encuentra un ítem en tu inventario llamado hoguera, haz click sobre el \"BDR\". Selecciona \"USAR\" y cierra el LUCH-12 pulsando \"Tab\" otra vez. Así veras una silueta semitransparente de color azul de unos troncos, presiona \"E\" para plantar la hoguera en el mundo. Presiona \"Q\" para cancelar, y así la silueta semitransparente desaparecerá.\n\nLa segunda forma - Equipa la hoguera en uno de los huecos de \"Ítem Suplementario\". El icono de la hoguera aparecerá en la esquina derecha junto al icono del arma. Cuando quieras poner la hoguera presiona \"Q\" entonces la silueta semitransparente de la madera ardiendo aparecerá, para confirmar donde ponerla pulsa \"E\", para cancelar pulsa \"Q\".\n\nPara más información lee el Manual, el cual puede ser encontrado en el LUCH12, y consejos adicionales en la ventana de la hoguera.",
+}

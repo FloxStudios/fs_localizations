@@ -1,0 +1,42 @@
+{
+	"1" : {
+		"timer" : 15.0,
+		"text" : "The first Messenger had been discovered within the Siberian wilderness almost eighty years ago by a Soviet geological expedition team. Twenty years later the second quite similar to the Siberian object was found on the bottom of the Pacific Ocean, however it was clear that its arrival took place much earlier."
+	},
+
+	"2" : {
+		"timer" : 15.0,
+		"text" : "These discoveries opened our eyes to the world and made us realise how insignificant we’re. So humanity being Like ignorant toddlers tried to satisfy our overwhelming curiosity and began conducting hundreds of experiments many of which lay beyond any ethical and moral practices you’d consider even close to legal."
+	},
+
+	"3" : {
+		"timer" : 17.0,
+		"text" : "After all these years it’s hardly possible, well if possible at all to say who or which of the artefacts would be responsible for the appearance of the very first Lazarus Pilar. However we know for sure that the first rumors about new diseases and rather odd creatures were coming from a small mining town In a place call Chagan In SSR Kazakhstan."
+	},
+
+	"4" : {
+		"timer" : 15.0,
+		"text" : "Somehow the \"Lazarus Pillars\" could alter the DNA of living organisms, turning them into abominations with a relentless hunger for flesh of any nature. Devouring other organisms the victims seem to mutate into more powerful and unstoppable killing machines or simply put (hybrids) part human part evil."
+	},
+
+	"5" : {
+		"timer" : 13.0,
+		"text" : "Despite all exhausted attempts to destroy the notorious Pillars, we managed to source one interesting fact about our enemy it seemed that In low temperatures their metabolism was much slower also mutations were less dramatic and dangerous. In other words they were in some kind of hibernation or as we later call it the frozen state."
+	},
+
+	"6" : {
+		"timer" : 20.0,
+		"text" : "This one small fact was groundbreaking and soon became a starting point in the first international operation \"White Night\" a global weather control system. A chain of satellites on an orbit around Earth were tasked to spray a special chemical mix to form a thin reflecting layer in the stratosphere. The plan was to reduce the amount of heat coming from the Sun and as result create a controlled micro ice age and it actually worked."
+	},
+
+	"7" : {
+		"timer" : 8.0,
+		"text" : "At first everything went in our favor, when the temperature fell the Hybrids became considerably weaker, we used this short break to build and save isolated settlements and reunite all uninfected people."
+	},
+
+
+	"8" : {
+		"timer" : 15.0,
+		"text" : "But time was quickly passing, we had no significant breakthrough that would help us to destroy the Pillars. Food supplies and medicine were rapidly dwindling, the settlements couldn’t sustain the growing population, riots were breaking out and in spite of all restrictions and countermeasures some desperate civilians began to leave seeking for a better place…"
+	}
+}

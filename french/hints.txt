@@ -1,0 +1,49 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/*
+*<fs_hint_tag></fs_hint_tag>
+*<fs_tex_tag>manual/hints_textures/</fs_tex_tag>
+*/
+
+/* Hints database  */
+{
+	"LOOT" : "<fs_hint_tag>LOOT_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/loot</fs_tex_tag><fs_hint_tag>LOOT_2</fs_hint_tag>",
+	"LOOT_NAME" : "Butin",
+	"LOOT_1" : "Les objets que l'on peut fouiller sont mis en évidence avec une lumière bleue. Vous devez être assez proche d'un objet pour pouvoir le fouiller.",
+	"LOOT_2" : "Vous pouvez faire glisser et déposer le contenu d'un objet fouillable dans votre inventaire un par un ou prendre tout en une seule fois, en appuyant sur le bouton \"Prendre Tout\".Pour fermer la fenêtre appuyez sur E, éloignez vous de l'objet ou cliquez sur \"Fermer\".",
+	"DOORS" : "<fs_hint_tag>DOORS_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_latch</fs_tex_tag><fs_hint_tag>DOORS_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_key</fs_tex_tag><fs_hint_tag>DOORS_3</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_code</fs_tex_tag><fs_hint_tag>DOORS_4</fs_hint_tag>",
+	"DOORS_NAME" : "Portes",
+	"DOORS_1" : "Toutes les portes avec lesquelles vous pouvez interagir sont mis en évidence avec une couleur verte. Pour ouvrir/fermer une porte non verrouillée appuyez simplement sur \"E\".\nParfois les portes peuvent être verrouillées, et afin d'avoir accès à la serrure maintenez appuyée la touche \"E\".\nIl y a cinq types de serrures dans le jeu:\n\n1) Loquet - Glissez le juste vers la droite pour l'ouvrir.",
+	"DOORS_2" : "2) Serrure mécanique - Ce type de serrure requière une clef ou un kit de crochetage pour être ouverte. La serrure a différents niveaux de complexité et peut nécessiter un niveau avancé du talent crochetage.",
+	"DOORS_3" : "3) Serrure électronique - Fonctionne a peut près de la même manière que les serrures mécaniques, mais nécessite du courant électrique pour fonctionner.\n4) Serrure à code - Un type très complexe de serrures, Pour en ouvrir une vous devez avoir le bon code ou un niveau élevé dans le talent crochetage.",
+	"DOORS_4" : "5) Serrure cassée - la serrure est cassée, et vous ne pouvez rien faire avec. Tentez de trouver un autre moyen de rentrer.\n\n[i]Conseil \"Les portes en bois peuvent toujours être cassées par la force, mais souvenez-vous, le bruit peut attirer des ennemis.\"[/i]",
+	"REST" : "<fs_hint_tag>REST_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/rest_bed</fs_tex_tag><fs_hint_tag>REST_2</fs_hint_tag>",
+	"REST_NAME" : "Repos",
+	"REST_1" : "Le personnage peut dormir dans des lits avec matelas et des baignoires [i][b]vides[/b][/i], mais assurez-vous d'avoir trouvé un endroit sure. Les ennemis peuvent vous tuer pendant votre sommeil.",
+	"REST_2" : "Pendant qu'il dort, votre personnage récupère une certaine quantité de vie - 10 points de vie par heure.\n[i]Astuce \"Les effets négatifs comme le froid et la faim continue d'affecter votre personnage même pendant le sommeil.\"[/i]\n\nSi votre personnage a été salement touché ou qu'il a une vie très basse, il ne sera pas capable de dormir jusqu'à ce que vous l'ayez assez soigné.",
+	"CAMPFIRE" : "<fs_hint_tag>CAMPFIRE_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_setup</fs_tex_tag><fs_hint_tag>CAMPFIRE_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_panel</fs_tex_tag><fs_hint_tag>CAMPFIRE_3</fs_hint_tag>",
+	"CAMPFIRE_NAME" : "Feu de camp",
+	"CAMPFIRE_1" : "Les feux de camps sont les plus simples et les plus accessibles sources de chaleur. ¨Pour fabriquer un feu de camp vous aurez besoin de : bois sec, papier, allumettes.\n\nPour placer un feu de camp dans le monde faites un clic droit dessus avec la souris et choisissez UTILISER, puis fermer le LUCH-12. La forme bleue du feu de camp apparaitra, faites un clic gauche de souris pour confirmer sa position, ou appuyez sur \"Q\" pour quitter. Vous pouvez aussi placer le feu de camp dans un des emplacements d'objet rapide.Dans ce cas pour pouvez placer un feu de camp dans avoir à ouvrir le LUCH-12. Appuyez sur \"Q\" et la forme bleue apparaitra, faites un clic gauche de la souris pour confirmer son placement.",
+	"CAMPFIRE_2" : "Le feu a une durée limitée, mais elle peut être prolongée en y rajoutant plus de bois tant qu'il est allumé. Cliquez sur le bouton avec une icône de bois dessus, dans le coin supérieur gauche, pour ajouter plus de bois.",
+	"CAMPFIRE_3" : "Toutes les matières premières, qui sont non comestibles dans leur état initial, peuvent être cuisinées sur un feu de camp. Faite juste glissez et deposez un ingrédient que vous aimeriez cuisiner dans lemplacement \"Cru\".",
+    
+    //Event hints
+    "WELCOME_NAME" : "Bienvenue à Duga 40",
+    "WELCOME" : "Cette maison abandonnée est devenue votre maison temporaire. Vous avez bien travaillé pour la fortifier et la protéger contre les hybrides et autres hôtes indésirables. Mais vos provisions ont diminué et vous devez aller en ville pour vous re-approvisionner.\n\nRegardez dans votre maison pour voir ce qu'il vous reste. Ce serait une bonne idée de commencer avec ce que vous avez dans vos poches, appuyez sur \"Tab\" pour ouvrir votre \"LUCH-12\".\n\nSi vous avez assez de ressources, fabriquez plusieurs feux de camps qui vont surement vous être utile.\n\nN'oubliez pas de mettre quelques vêtements, le froid à l'extérieur peut vous tuer rapidement.\n\nAvant de quitter votre maison, consultez le Manuel qui a été téléchargé sur votre LUCH-12. Il vous expliquera les bases que vous devez connaitre pour rester en vie.\n\nQuelques fenêtres dans le jeu contiennent aussi des suggestions et des astuces utiles. Appyez sur l'icone avec un point d'interrogation dessus, pour afficher une astuce.\n\nVous pouvez désactiver les astuces dans les paramètres du jeu.",
+    "DOORS1_NAME" : "Portes",
+    "DOORS1" : "La serrure à code est une bonne protection contre les voleurs. Les gens laissent souvent des indices pour se souvenir du code oublié. Certains indices sont plus évidents que d'autres, tentez d'observer autour de vous, peut-être serez vous chanceux.\n\nCependant, la fiabilité d'une serrure n'a aucune importance, si elle est sur une porte en bois. Les portes en bois ne résistent pas à une hache.",
+    "SLEEP_NAME" : "Dormir",
+    "SLEEP" : "La nuit la température est imprévisible, elle peut tomber très bas en un clin d'oeil. Beaucoup de gens sont morts dans leur sommeil à cause de cela.\n\nTentez de trouver une maison vide ou une pièce sans fenêtres cassées, cela vous fournira un abris contre le froid. Placez un feu de camp près de votre lit avant de vous reposer.\n\nDe dormez pas trop longtemps!",
+    "ZONES_NAME" : "Régions",
+    "ZONES" : "Vous pouvez voyager d'une région à une autre en marchant sur les zones de transition(les lignes vertes en diagonal sur le sol)",
+    "FIRE_NAME" : "Feu de camp",
+    "FIRE" : "Essayez d'allumer le feu. Il est très important de comprendre comment cela fonctionne.\n\nIl y a deux façons de faire un feu de camp.\n\nLa première façon - Appuyez sur \"Tab\" pour ouvrir votre LUCH-12, trouvez un objet appelé Feu de camp dans votre inventaire et cliquez dessus avec le bouton droit de la souris \"BDS\". Sélectionnez \"UTILISER\" et fermez votre LUCH-12 en appuyant à nouveau sur \"Tab\" . Vous verrez la forme semi-transparente bleue d'un feu de camp, appuyez sur \"E\" pour le placer dans le monde. Appuyez sur \"Q\" pour quitter, et la forme semi-transparente bleue disparaitra.\n\nLa seconde façon - Equipez vous du feu de camp dans un des emplacements \"Objets Supplémentaires\" . L'icône du feu de camp apparaitra dans le coin droit de votre écran à coté de votre arme. Si vous voulez placer un feu de camp, appuyez sur \"Q\" et la forme semi-transparente du feu de camp apparaitra, pour confirmer son emplacement appuyer sur \"E\", pour annuler appuyez sur \"Q\".\n\nPour plus d'information lisez le Manuel, qui peut être trouvé dans le LUCH12, et d'autres conseils dans la fenêtre du feu de camp.",
+}

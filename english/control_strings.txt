@@ -1,0 +1,71 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/* Control Strings database  */
+{
+    //"None" : "None", // Key == Value, so not needed in English
+    "Mouse0" : "LMB",
+    "Mouse1" : "RMB",
+    "Mouse2" : "WMB",
+    "Mouse Left" : "Mouse X Axis",
+    "Mouse Right" : "Mouse X Axis",
+    "Mouse Down" : "Mouse Y Axis",
+    "Mouse Up" : "Mouse Y Axis",
+    "Alpha0" : "0",
+    "Alpha1" : "1",
+    "Alpha2" : "2",
+    "Alpha3" : "3",
+    "Alpha4" : "4",
+    "Alpha5" : "5",
+    "Alpha6" : "6",
+    "Alpha7" : "7",
+    "Alpha8" : "8",
+    "Alpha9" : "9",
+    "Keypad0" : "Num 0",
+    "Keypad1" : "Num 1",
+    "Keypad2" : "Num 2",
+    "Keypad3" : "Num 3",
+    "Keypad4" : "Num 4",
+    "Keypad5" : "Num 5",
+    "Keypad6" : "Num 6",
+    "Keypad7" : "Num 7",
+    "Keypad8" : "Num 8",
+    "Keypad9" : "Num 9",
+    "UpArrow" : "Arrow Up",
+    "DownArrow" : "Arrow Down",
+    "LeftArrow" : "Arrow Left",
+    "RightArrow" : "Arrow Right",
+    "LeftShift" : "L.Shift",
+    "RightShift" : "R.Shift",
+    "Joystick1Button0" : "A",
+    "Joystick1Button1" : "B",
+    "Joystick1Button2" : "X",
+    "Joystick1Button3" : "Y",
+    "Joystick1Button4" : "LB",
+    "Joystick1Button5" : "RB",
+    "Joystick1Button6" : "Select",
+    "Joystick1Button7" : "Start",
+    "Joystick1Button8" : "L.Stick",
+    "Joystick1Button9" : "R.Stick",
+    "Joy1 Axis 1-" : "L.Stick Left",
+    "Joy1 Axis 1+" : "L.Stick Right",
+    "Joy1 Axis 2-" : "L.Stick Up",
+    "Joy1 Axis 2+" : "L.Stick Down",
+    "Joy1 Axis 4-" : "R.Stick Left",
+    "Joy1 Axis 4+" : "R.Stick Right",
+    "Joy1 Axis 5-" : "R.Stick Up",
+    "Joy1 Axis 5+" : "R.Stick Down",
+    "Joy1 Axis 6-" : "DPad Left",
+    "Joy1 Axis 6+" : "DPad Right",
+    "Joy1 Axis 7-" : "DPad Down",
+    "Joy1 Axis 7+" : "DPad Up",
+    "Joy1 Axis 9+" : "LT",
+    "Joy1 Axis 10+" : "RT"
+}

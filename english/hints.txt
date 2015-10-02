@@ -1,0 +1,49 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/*
+*<fs_hint_tag></fs_hint_tag>
+*<fs_tex_tag>manual/hints_textures/</fs_tex_tag>
+*/
+
+/* Hints database  */
+{
+	"LOOT" : "<fs_hint_tag>LOOT_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/loot</fs_tex_tag><fs_hint_tag>LOOT_2</fs_hint_tag>",
+	"LOOT_NAME" : "Loot",
+	"LOOT_1" : "Lootable objects are highlighted with blue colour. You must be close enough to an object in order to search it.",
+	"LOOT_2" : "You can drag and drop items form a Lotable object into your inventory one by one or take  everything at once, by pressing the \"Take All\" button. To close the window press E, walk away from the objected or click \"Exit\".",
+	"DOORS" : "<fs_hint_tag>DOORS_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_latch</fs_tex_tag><fs_hint_tag>DOORS_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_key</fs_tex_tag><fs_hint_tag>DOORS_3</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_code</fs_tex_tag><fs_hint_tag>DOORS_4</fs_hint_tag>",
+	"DOORS_NAME" : "Doors",
+	"DOORS_1" : "All interactable doors are highlighted with green colour. To open/close an unlocked door simply hit \"E\".\nSometimes doors can be locked, and  in order to get access to the lock Hold \"E\".\nThere are five types of locks in the game:\n\n1) Latch - Just slide it to the right side to open it.",
+	"DOORS_2" : "2) Mechanical lock - This type of locks requires a key or a lock pick in order to be opened. The locks have different levels of complexity and may require advanced level of a lockpicking skill.",
+	"DOORS_3" : "3) Electronic lock - Works pretty much the same as Mechanical Locks, but requires electric current to operate.\n4) Codelock - A very complex type of locks, to open one you would need the right combination or a high level of the lockpicking skill.",
+	"DOORS_4" : "5) Broken lock - the lock was broken, and you can't do anything with it. Try to find another way to get in.\n\n[i]Tip \"The wooden doors can always be broken with brutal force, but remember, the noise may attract enemies.\"[/i]",
+	"REST" : "<fs_hint_tag>REST_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/rest_bed</fs_tex_tag><fs_hint_tag>REST_2</fs_hint_tag>",
+	"REST_NAME" : "Rest",
+	"REST_1" : "The character can sleep in beds with mattresses and [i][b]empty[/b][/i] bathtubs, but be sure that you found a safe place. Enemies can kill you while you sleep.",
+	"REST_2" : "During sleep, you character will restore some amount of health - 10 health points per hour.\n[i]Tip \"The negative factors like cold or hunger will continue to affect your character even during the sleep\"[/i]\n\nIf your character has been badly wounded or has very low health, he/she will not be able to sleep until you have healed enough.",
+	"CAMPFIRE" : "<fs_hint_tag>CAMPFIRE_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_setup</fs_tex_tag><fs_hint_tag>CAMPFIRE_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_panel</fs_tex_tag><fs_hint_tag>CAMPFIRE_3</fs_hint_tag>",
+	"CAMPFIRE_NAME" : "Campfire",
+	"CAMPFIRE_1" : "Campfires are the simplest and the most accessible source of heat. To craft a campfire you would need: dry wood, paper and matches.\n\nTo set a campfire in the world click on it with RMB and select USE, than close the LUCH-12. The blue shape of the campfire will appear, hit LMB to confirm or \"Q\" to cancel. Alternatively, you can equip the campfire in one of the supplementary slots for quickness. In such case you can set the campfire without opening the LUCH-12. Just press \"Q\" and the blue shape will appear, press LMB to confirm.",
+	"CAMPFIRE_2" : "The fire has a limited duration, but it can be extended by adding extra wood to it while it's active. Click on the button with an icon of wood on it, at the top left corner, to add more wood.",
+	"CAMPFIRE_3" : "All raw ingredients, which are inedible in their initial state, can be cooked on a campfire. Just drag and drop an ingredient you'd like to cook in the \"Raw\" slot.",
+    
+    //Event hints
+    "WELCOME_NAME" : "Welcome to Duga 40",
+    "WELCOME" : "This abandoned house became your temporary home. You've worked well to fortify and protect it from the hybrids and other unwelcome guests. But your supplies have dwindled and you must go to the City to replenish them.\n\nLook over your house to check what's left. It's a good idea to start with your own pockets, hit \"Tab\" to open \"LUCH-12\".\n\nIf you have enough resources, craft a few campfires they definitely will come in handy.\n\nDon't forget to put some clothes on, the cold outside can kill you quickly.\n\nBefore leaving your home, take a look at the Manual that was downloaded to your LUCH-12. It will explain the basics you should know to stay alive.\n\nSome in-game windows also contain hints and useful tips. Press the icon with a question mark on it, to open a hint.\n\nYou can turn the hints off in the game settings.",
+    "DOORS1_NAME" : "Doors",
+    "DOORS1" : "Codelock is a good protection from thieves. People often leave hints to recall the forgotten passwords. Some hints are more evident than the others, try to look around, maybe you get lucky.\n\nHowever, it does not matter how strong the lock is, if it's mounted on a wooden door. The wooden doors cannot withstand an axe.",
+    "SLEEP_NAME" : "Sleep",
+    "SLEEP" : "The night temperature is unpredictable, it can drop really low in a blink of an eye. Many people have died in their sleep because of that.\n\nTry to find an empty house or a room without broken windows, it will provide you with some shelter from cold. Set a campfire next to your bed before having a rest.\n\nDo not sleep too long!",
+    "ZONES_NAME" : "Zones",
+    "ZONES" : "You can travel from one location to another walking into a transition zone (green diagonal lines on the ground)",
+    "FIRE_NAME" : "Campfire",
+    "FIRE" : "Try to light the fire. It is very important to understand how it works.\n\nThere are two ways to set up a campfire.\n\nThe first one - Hit \"Tab\" to open LUCH-12, find an item called Campfire in your Inventory and click on it with \"RMB\". Select \"USE\" and close LUCH-12 by hitting \"Tab\" again. You will see a blue semi-transparent shape of firewoods, press \"E\" to  set it in the world. Press \"Q\" to cancel, and the semi-transparent shape will disappear.\n\nThe second way - Equip the campfire in one of the  \"Supplementary Items\" slots. The campfire icon will appear at the right corner of the screen next to your weapon. If you want to set the campfire, press \"Q\" and the blue semi-transparent shape of firewoods will appear, to confirm the placement press \"E\", to cancel \"Q\".\n\nFor more information read the Manual, which can be found in the LUCH12, and additional hints in the campfire window.",
+}

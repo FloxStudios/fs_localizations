@@ -1,0 +1,53 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Notes info database */
+ {
+	"1" : {
+		"name" : "Note du SansNom",
+		"text" : "Si vous tenez ce document, eh bien, cela signifie que j'ai finalement trouvé la paix. Je ne vous demande pas de faire quoique ce soit pour moi, parce-que c'est inutile, ils ne nous laisseront jamais partir. J'ai perdu toutes raisons de vivre, mais, peut être, pas vous. J'ai enfermé quelques provisions dans les machines à Molniva, j'espère que cela vous aidera à survivre pendant un certain temps. Sincerement votre. M.  14/45.",
+		"dev_comment" : ""
+	},
+	"2" : {
+		"name" : "Note de Survivant",
+		"text" : "Aujourd'hui j'ai tué et mangé un homme. J'étais affamé, trop affamé.... Ces bâtards ne voulaient pas me laisser rester dans leur camps. Ils m'ont laisser mourir, mourir de froid et de faim. C'était leur faute, pas la mienne...  Je suis venu avec assez de nourriture pour quelques jours, je pourrais le faire à la base de Nemostor.",
+		"dev_comment" : ""
+	},
+	"3" : {
+		"name" : "Note de Survivant",
+		"text" : "Une ville sans argent, Tout est gratuit. Ces foutus communistes. J'étais comme ça, et qu'avons nous à présent! On échange des allumettes contre de la nourriture.",
+		"dev_comment" : ""
+	},
+	"4" : {
+		"name" : "Page du journal de Valya",
+		"text" : "J'ai dis à maman que je suis une grande personne, et que je peux aller à l'école toute seule. Elle n'était pas contente et m'a dit de parler à papa. Papa me laissera faire, il le fait toujours. J'ai le meilleurs papa du  monde!!!!",
+		"dev_comment" : ""
+	},
+	"5" : {
+		"name" : "Page du journal de Valya",
+		"text" : "Quand j'aurais finis l'école, Je deviendrais docteur comme mon papa. J'aiderais les gens et les chats. Les chats sont trop mignons.",
+		"dev_comment" : ""
+	},
+	"6" : {
+		"name" : "Page du journal de Valya",
+		"text" : "Maman dit, papa reviendra à la maison une fois qu'il ira mieux. Pourquoi elle ne me laisse pas lui rendre visite? Il me manque vraiment beaucoup, pourquoi elle ne le comprends pas??? Peut être qu'il ne lui manque pas autant qu'à moi. Parfois je la déteste…",
+		"dev_comment" : ""
+	},
+	"7" : {
+		"name" : "Page du journal de Valya",
+		"text" : "Ils sont venus et ont pris maman, elle était très malade.Ils m'auraient prise aussi, mais je me suis cachée dans les toilettes. Je suis seule à présent, j'espère n'être jamais amenée à l'hôpital.",
+		"dev_comment" : ""
+	},
+	"8" : {
+		"name" : "Page du journal de Valya",
+		"text" : "Il fait de plus en plus froid chaque jour, se frotter les bras ne fonctionne pas. J'ai mis deux pulls de papa et je me suis recroquevillée sous la grande couverture. Je veux que maman et papa reviennent à la maison, mais s'ils ne reviennent pas. Etais-je une mauvaise fille? Je suis désolée! S'il vous plait, s'il vous plait, s'il vous plait revenez!",
+		"dev_comment" : ""
+	},
+}

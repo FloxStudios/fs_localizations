@@ -1,0 +1,375 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Dialogs info database */
+
+{
+	"1" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Saluuut, Citoyen!\n\n Je suis ARCHIMEDE, un super-ordinateur qui relie tous les terminaux \"Eureka\" et CCTV \"OKO\" à travers la ville en un seul réseau. Vous pouvez me demander tout ce que vous voulez , et je suis sur à 100% que mon intelligence infiniment grande trouvera la réponse. ",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Alors, comment puis-je vous être utile, Citoyen? \n\n [ATTENTION!] En raison d'un dysfonctionnement dans la ligne d'alimentation principale , tous les systèmes vont être transférés vers la source d'alimentation de secours. Si vous n'êtes pas satisfait de la réponse, je vous pris de répéter votre question plus tard, quand la puissance est totalement rétablie.",
+						"next_block" : 3
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : true,
+				"records" : {
+					"4" : {
+						"text" : "Rien! Au revoir",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "Quelle heure est il?",
+						"next_block" : 6
+					},
+					"3" : {
+						"text" : "Ou suis-je?",
+						"next_block" : 4
+					},
+					"1" : {
+						"text" : "Pourquoi fonctionnez vous encore?",
+						"next_block" : 8
+					},
+				}
+			},
+			"4" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Vous êtes désagréable, petit humain!!!Je ne vais rien vous dire.... beep...beep...partez...beep... \n\n[i]Soudainement, l'écran est devenu noir[/i] ",
+						"next_block" : 5
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Rappelez moi de vous écraser plus tard , d'accord?",
+						"next_block" : -1
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "...Vous êtes jeune et la vie est longue et il y à du TEMPS à tuer aujourd'hui... \n\n... beep beep ...Fragmentation  98%... \n\nBonne journée à toi, Citoyen!",
+						"next_block" : 7
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Oh, super! Qu'est ce que c'est censé vouloir dire? Je suppose, que votre cerveau à vraiment brulé.",
+						"next_block" : -1
+					}
+				}
+			},
+			"8" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Contestez-vous mon existence?! Comment osez-vous...!...vous...!...vous [long,profond soupir] Vous me faite déprimer, laissez-moi seul, s'il vous plait...",
+						"next_block" : 9
+					}
+				}
+			},
+			"9" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Comme vous voulez, tête de plomb.",
+						"next_block" : -1
+					}
+				}
+			},
+		}
+	},
+
+	"2" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Rien de nouveau à dire.",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+
+	"3" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Je sais pourquoi vous êtes ici! Vous voulez LA QUETE, n'est ce pas? Tenez, prenez ceci!",
+						"next_block" : -1,
+						"command_list" : [
+							"start_quest 1"
+							"add_item 603217 3",
+							"replace_dialog 5 4",
+							"replace_dialog 3 6"
+						]
+					}
+				}
+			}
+		}
+	},
+
+	"4" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Donnez moi cette barre de chocolat! Et une est pour vous, vous la méritez. Et nous y voici - vous avez terminé LA QUETE!!! YEAY!.",
+						"next_block" : -1,
+						"command_list" : [
+							"remove_item 603217 2",
+							"finish_objective 1#1#1 true"
+						]
+					}
+				}
+			}
+		}
+	},
+
+	"5" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ne revenez pas jusqu'à ce que vous obteniez LA QUETE!!!",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+
+	"6" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Vous avez déjà obtenu votre QUETE. Que voulez-vous de moi à présent?",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+	
+    "7" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[Un vieil homme, avec les yeux vides et sans vie. L'écoeurante, nauséabonde odeur provenant de lui vous fait regretter d'être venu si prêt. Néanmoins, il ne semble pas être dangereux] \n\n Ce bruit morbide bourdonnant me donne mal au crâne. Je peux l'entendre partout, même ici sous terre il varie juste légèrement..... D'autres pourraient entendre le bruit aussi mais...mais... ils ont changés... Je ne veux pas changer!!!\n\nJe ne peux pas ressortir, Le bruit est insupportable à la surface, Je ne les retrouverais jamais ......mes enfants, mes pauvres enfants, je ne les retrouverais jamais.... [marmonne indistinctement]",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+	
+"8" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[ Un grand homme, d'âge moyen. Il à l'air gai et amical mais vos plus profonds sentiments vous disent de garder vos distances.]  \n\n Oh! Un autre humain en vie!\n\n Je n'avais vu personne depuis des mois! Je suppose que le dernier à qui j'ai parlé était ce vieux fou, dans un bunker caché. Eh bien, ce serait compliqué d'appeler ça une conversation profonde, l'homme marmonnait juste des absurdités. Mais vous avez l'air d'une personne saine qui veut dire ce qu'il à sur le coeur. \n\n Alors, mon ami, Allez-vous me raconter votre histoire?",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Je ne préfère pas.",
+						"next_block" : 12
+					},
+					"2" : {
+						"text" : "Je suis un survivant, tout comme vous. Au mauvais endroit, au mauvais moment, c'est toute mon histoire. \n\n Qu'en est-il de vous?",
+						"next_block" : 4
+					},
+					"3" : {
+						"text" : "Je voyageais dans mon camion quand il est tombé en panne non loin d'ici.Depuis j'ai squatté une maison abandonnée, tentant de trouver des pièces pour mon camion.",
+						"next_block" : 5
+					},
+					"4" : {
+						"text" : "Fait chier!",
+						"next_block" : -1
+					}
+					
+				}
+			},
+            "3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Oh bien, Je voulais juste parler.",
+						"next_block" : -1
+					}
+				}
+			},
+            "4" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ha.. Je parie que je sais qui vous êtes! Vous n'êtes pas une personne très bavarde non plus, n'est ce pas? Désolé compagnon, mais c'est une route à deux voies. Donc tout comme vous, juste un survivant...",
+						"next_block" : -1
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Vous dites voyager dans un camion, ça doit être une bonne chose, huh!?... \n\n Je suis né et j'ai grandi ici, quel bel endroit c'était. Vous auriez du voir la ville de Duga dans ses meilleurs jours. \n\n Quoi qu'il en soit, quand ce gâchis a commencé j'ai rejoint un petit campement de civils à la station de chemin de fer. Nous avons traversé beaucoup de merde ensemble, mais maintenant nous avons un semblant d'ordre et de règles. \n\n Dites m'en plus à propos de votre camion, ou est-il et quel est son problème? ",
+						"next_block" : 6
+					}
+				}
+			},
+            "6" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Attendez une seconde! Vous dites n'avoir parlé à personne depuis des mois, qu'en est il des gens dans votre campement?",
+						"next_block" : 7
+					},
+					"2" : {
+						"text" : "Vous savez, il va faire encore plus froid, je ferais mieux d'y aller. ",
+						"next_block" : 12
+					},
+					"3" : {
+						"text" : "J'ai dis un camion? Non-non, juste une petite voiture.Je ne l'ai pas laissé très loin et elle n'est pas réparable.\n\n Je dois y aller, maintenant. A la prochaine,.... peut être,... un jour... ",
+						"next_block" : 8
+					},
+					"4" : {
+						"text" : "Je pense que vous êtes une grosse merde menteuse ! Partez avant que j'éclate votre tête!\n\nJe veux dire, restez loin de moi!!! ",
+						"next_block" : 9
+					}
+					
+				}
+			},
+			"7" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Hmmm...emmm... Je voulais dire de nouveaux gens, vous savez, pas ceux venant du camp. Un nouveau visage... des nouvelles fraiches...ça ne fait rien! Je dois être au camp avant la nuit, j'espère que nous nous reverrons encore. Je suis vraiment curieux au sujet de votre camion!\n\n Soyez prudent Survivant! "
+					    "next_block" : -1
+					}
+				}
+			},
+		    "8" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Vous appelez votre voiture un camion?! Avez-vous le cerveau complètement gelé ou me prenez-vous pour un imbécile?",
+						"next_block" : 10
+					}
+				}
+			},
+		    "9" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Expirez! j'étais curieux, c'est tout! Pas besoin d'être un imbécile. Revenez quand vous aurez la tête froide.",
+						"next_block" : -1
+					}
+				}
+			},
+	        "10" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Voiture, camion , quoi que ce soit, le fait est que c'est cassé, point final! Je pense, que tout est dit. Faites attention!",
+						"next_block" : -1
+					},
+				    "2" : {
+						"text" : "Arrêtez les conneries, Je vous connais à peine, ne vous attendez pas à une conversation à coeur ouvert avec un étranger. Un homme comme vous devrait comprendre.",
+						"next_block" : 11
+					},
+				    "3" : {
+						"text" : "C'est une conversation sans fin, finissons-en et faisons comme si elle n'avait jamais eu lieu.",
+						"next_block" : -1
+					},
+				}
+			},
+		    "11" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ca suffit. Peut être qu'un jour vous me connaitrez mieux et que je pourrais vous aider avec votre camion... Je voulais dire voiture. \n\n A un de ces quatre, L'ami!",
+						"next_block" : -1
+					}
+				}
+			},
+		    "12" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Comme vous voulez, je voulais juste aider. Je serais dans les alentours, si vous changez d'avis.",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+	
+"9" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "En se rapprochant de cette hideuse structure alien vous ouvez entendre un étrange bruit de pulsation. Il vous dégoute, un frisson froid parcourt votre corp, tout votre être déteste ce son... Avec un grand effort vous vous dégagez de son emprise hypnotique.",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+}

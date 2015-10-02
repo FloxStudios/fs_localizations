@@ -1,0 +1,120 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Quests info database */
+
+{
+	"1" : {
+		"name" : "More chocholate!!!",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Bring the chocholate to that hungry... ATM???",
+				"success_text" : "You bring the chocholate to that ATM and it leave one for you ;)",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Bring that chocolate already! Chocolate-chocolate-chocolate!!!!!!"
+					}
+				}
+			}
+		},
+		"success_commands" : [ "replace_dialog 4 2" ],
+		"fail_commands" : []
+	},
+	"2" : {
+		"name" : "Continue the journey",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "The damage done to the Explorer is more serious than I expected. I cannot just patch it up with the stuff I have. If I don’t find a replacement for the broken parts, I should forget about my plans of getting to the Resistance. \n\n Radiator \n\n Gearbox \n\n Cylinder Head",
+				"success_text" : "I found everything I need. Finally I can leave this godforsaken place.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : " Find the parts to fix the Explorer. \n\n Radiator \n\n Gearbox \n\n Cylinder Head"
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+		"3" : {
+		"name" : "Foul tween",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Maxim’s brother is locked in one of the garages behind the Grocery Store at Novator’s Street. Kill him and bring back to Olga his wristwatch.",
+				"success_text" : "You helped Olga to avenge her husband.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : " Kill the Maxim's brother."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+	    "4" : {
+		"name" : "Lost children",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "It wasn’t difficult to decipher the nonsense of an old delusional man. He thinks the plastic dolls are his children and apparently a couple of them was lost.\n\n It shouldn’t be hard to find a few dolls for this guy, he might get a little better.",
+				"success_text" : "The family reunited",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Collect two plastic dolls for the old man."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+		"5" : {
+		"name" : "Strayed Dog",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "The grumpy kid from the cabin worries about his dog Finik, which slipped out from the cabin several days ago and hasn’t come back.",
+				"success_text" : "RIP dear friend.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Find any news about boy’s dog Finik."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+}

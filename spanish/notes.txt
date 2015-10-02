@@ -1,0 +1,53 @@
+﻿/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Notes info database */
+ {
+	"1" : {
+		"name" : "Nota Sin Nombre",
+		"text" : "Si estas sujetando este papel, bueno, significa que he encontrado la paz. No te estoy pidiendo que hagas algo por mi, porque ahora no tendría sentido, ellos nunca nos dejaran salir.  He perdido toda razón para vivir pero, quizás, tu aún no. Escondí algunos suministros en las máquinas Molniya, espero que te ayuden a sobrevivir durante un tiempo. Sinceramente, tu M.  14/45. ",
+		"dev_comment" : ""
+	},
+	"2" : {
+		"name" : "Nota de un Superviviente",
+		"text" : "Hoy, mate y me comí a un hombre. Tenía tanta hambre, estaba tan hambriento.... Esos bastardos no me dejaron quedarme en su campamento. Ellos me dejaron morir, morir de frio y hambre. Es su culpa, no la mía...  Me he encontrado con bastante comida los últimos días, Debería intentar llegar a la base de Nemostor.",
+		"dev_comment" : ""
+	},
+	"3" : {
+		"name" : "Nota de un Superviviente",
+		"text" : "Una ciudad sin dinero, Todo es gratis. Malditos comunistas. Antes me gustaban, ¡pero que hemos conseguido! Cambiar cerillas por comida.",
+		"dev_comment" : ""
+	},
+	"4" : {
+		"name" : "Página del diario de Valya",
+		"text" : "Le dije a mi madre que ya era un adulto y podía ir solo al colegio. Ella no estaba feliz y me dijo que fuera a hablar con papá. papá debería dejarme ir, el siempre lo hace. ¡¡¡¡Tengo el mejor papá del mundo!!!!",
+		"dev_comment" : ""
+	},
+	"5" : {
+		"name" : "Página del diario de Valya",
+		"text" : "Cuando termine el colegio, me convertiré en doctor como mi padre. Ayudare a gente y gatos. Los gatos son bonitos.",
+		"dev_comment" : ""
+	},
+	"6" : {
+		"name" : "Página del diario de Valya",
+		"text" : "Mamá dice que papá volverá a casa cuando se encuentre mejor. ¿Por qué no me deja visitarlo? Lo echo mucho de menos, ¿¿¿Cómo no puede comprenderlo??? Quizás, ella no lo eche de menos tanto como yo. A veces la odio…",
+		"dev_comment" : ""
+	},
+	"7" : {
+		"name" : "Página del diario de Valya",
+		"text" : "Ellos vinieron y se llevaron a mamá, ella estaba muy enferma. Ellos deberían haberme llevado a mi también, pero me escondí en el armario. Ahora estoy por mi cuenta, desearía no haber llamado al Hospital.",
+		"dev_comment" : ""
+	},
+	"8" : {
+		"name" : "Página del diario de Valya",
+		"text" : "Cada día hace más y más frio, frotarme ya no está funcionando. Me he puesto dos sueters y me he hecho una bola bajo las sabanas. Quiero que mamá y papá vuelvan a casa, pero... ¿Y si ellos no quieren volver?. ¿Fui una mala hija?. !Lo siento! !Por favor, por favor, por favor volved!",
+		"dev_comment" : ""
+	},
+}

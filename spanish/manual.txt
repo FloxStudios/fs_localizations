@@ -1,0 +1,65 @@
+﻿/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/* Manuals info database  */
+{
+    "intro" : {
+        "name" : "INTRO",
+        "text" : "Saludos y bienvenido al increíble \"LUCH-12\". En esta guía de usuario, vamos a introducirte en las innovaciones, resultantes de la doceava versión de una larga y satisfactoria línea en la innovación de interfaces portables.\n\nEl\"LUCH -12\" fue diseñado por 2 científicos sobresalientes, el científico Dr. Ken Takayanagi y Prof. Iliya Zworykin en el K.B. SVET. Fue diseñado para usarse como asistente personal y supervisor de la salud de una manera sencilla. Un dispotivo compacto.\n\nEn esta doceava versión del LUCH, hemos hecho, muchos avances, los cuales nos permiten una mayor resolución, un procesador y multitarea un 20% mas rápido lo que permite tener dos ventanas diferentes activas a la vez.\n\nToda la información importante sobre tu  \“LUCH-12\”, esta guardada y puedes acceder a ella en cualquier momento. Por favor, lee el manual con atención, tu vida o tu seguridad pueden depender de ello.\n\nInforamación adicional sobre la ciudad, localizaciones y gente, puede ser encontrada en terminales \"EUREKA\". Si eres nuevo en la ciudad por favor recuerda descargar el mapa para turistas en tu \“LUCH-12\”, desde el terminal más cercano.\n\nGracias por usar LUCH-12\n\n\nK.B. SVET",
+        "topics" : {}
+    },
+    "controls" : {
+        "name" : "Controles",
+        "text" : " Esta sección te dará un repaso sobre las mecánicas de este juego, los controles, funcionamiento del LUCH-12 y todo lo que puedas necesitar saber.",
+        "topics" : {
+            "basics" : {
+                "name" : "Básico",
+                "text" : "\"W,A,S,D\" y ratón - Para moverte por el mundo.\n\n\"LMB\" - Atacar.\n\n\"R\" - Recargar.\n\n\"1, 2, 3\" - Cambiar entre las diferentes armas. \"1\" - desarmado. En algunos casos los NPCs no te hablaran mientras tengas un arma en tus manos y es posible que te consideren una amenaza y te ataquen.\n\n\"4, 5\" -  Cambiar entre Ítems Suplementarios.\n\n\"BDR\" - Rotas la cámara.\n\n\"Girar la rueda\" - Mueve la cámara arriba y abajo, también permite alejar la cámara.\n\n\"E\" - Te permite interactuar con objetos. Ciertas veces necesitaras Mantener \"E\" para poder hacer una acción adicional sobre el objeto (por ejemplo abrir la cerradura de una puerta o cocinar). Todos los objetos intereactuables están remarcados en un color: naranja - escondites, azul -  ítems recogibles, verde - puertas y portales, lugares para dormir - amarillo, enemigos muertos - rojo.\n\n\"C\" - Tu personaje se centra en escuchar. Concentrarse en oír nos permite ver enemigos ocultos y su campo de visión. Cuando nos centramos en oír, no podemos correr.\n\n\"Barra espaciadora\" - Agacharse.\n\n\"Bloq Mayus\" - Alternar entre correr y andar.\n\n\"Tab\" - Abrir/Cerrar el LUCH-12. El botón rojo en la parte de arriba a la derecha, también cerrara el LUCH-12.\n\n\"Q\" - Usar/Consumir/Colocar un ítem suplementario. Un ítem que pueda ser colocado en el mundo aparecerá como una silueta semitransparente. Una vez que encuentres un lugar donde colocarlo pulsa \"E\", para convertirlo en un objeto activo en el mundo. Presiona \"Q\" otra vez si quieres cancelar, (por ejemplo, una hoguera aparecera como una pila demadera semitransparente de color azul.)\n\n\"F\"- Encender/Apagar la linterna. La linterna debe estar equipada en uno de los huecos de artilugios. Mantén \"F\" para cambiar la batería de la linterna sin abrir el LUCH-12, de manera alternativa puedes hacerlo desde la ventana de inventario del LUCH-12.",
+                "topics" : {}
+            },
+            "luch" : {
+                "name" : "LUCH-12",
+                "text" : "[b]Inventario[/b] - Muestra los ítems que lleva el personaje. El personaje puede tirar, usar y consumir ítems desde el inventario haciendo click derecho en el ítem.\n\n[b]Estadísticas[/b] - Contiene información sobre los rasgos, estadísticas y habilidades. Mientras juegas puedes ajustar ciertos parámetros usando una droga llamada \"Antrazidol\". (Esta ventana aún no está disponible)\n\n[b]Mapa[/b] - El LUCH-12 tiene un mapa general de la ciudad y sus afueras. Usando el mapa puedes viajar entre diferentes localizaciones disponibles instantáneamente. (Esta Ventana aún no está Disponible).\n\n[b]Información[/b] - Muestra el estado físico del personaje y los ítems equipados. Para equipar un ítem, simplemente selecciona algo que quieras poner en tu personaje desde el inventario y arrástralo a un espacio en la ventana de información.\n\n[i]Armadura[/i] -El personaje puede equipar dos piezas de armadura al mismo tiempo: Cabeza y Cuerpo.\n\n[i]Arma[/i] - Hay dos huecos disponibles para armas. Botellas vacías, latas, ladrillos y piedras, también se consideran armas. Aunque algunos de estos no infrinjan daño alguno.\n\n[i]Ítems suplementarios[/i] - Hay otros dos huecos, para ítems suplementarios: comida, bebidas, hogueras, radios, etc... Puedes poner casi cualquier ítem en estos huecos para tener acceso rápido(excepto armas y armaduras).\n\n[i]Artilugios[/i] - Estos huecos sirven para otros dispositivos que pueden hacer tu vida mucho más fácil (por ejemplo, una linterna, si quieres usarla. Recuerda cambiar la batería si se agota).\n\n[b]Creación[/b] - Aquí puedes crear y arreglar nuevos ítems a partir de recursos que vayas recogiendo. Puedes encontrar más información en la sección: \"CREACION\"\n\n[b]Diario[/b] - Tiene notas importantes, tareas, información sobre gente y lugares (esta ventana aún no esta disponible).\n\n[b]Manual[/b] -  Esta ventana contiene todo lo que necesitas saber sobre el juego y como funciona. Si te sientes frustrado, echa un ojo al manual. Si algo no está funcionando como debería, por favor contacta con nuestro personal súper especializado en K.B. SVET, usando el siguiente mail: (support@snowarcstudio.com)",
+                "topics" : {}
+            },
+            "campfire_cooking" : {
+                "name" : "Hogueras y Cocinar",
+                "text" : "Las hogueras son la forma más simple y accesible de tener calor. Estar cerca del fuego, repone la temperatura de cuerpo a temperatura normal. Ten en cuenta que cuanto más lejos estés del fuego, menos efecto hará.\n\nEl fuego tiene una duración limitada, pero puede prolongarse echando madera mientras está activo.\n\nTodos los ingredientes crudos, los cuales, en este estado no pueden ser consumidos, pueden ser cocinados en las hogueras. Cocinar la comida tiene mas efectos positivos que quitarte el hambre, también te aumentará un poco la temperatura corporal. Las recetas básicas de comida están almacenadas en el LUCH-12, en la seccion de Creación.",
+                "topics" : {}
+            },
+            "character" : {
+                "name" : "Personaje",
+                "text" : "Tu personaje es un ser humano. Por lo menos hasta ahora, como todos los seres humanos, el/ella tiene unas necesidades básicas: comida, agua, refugio y la lista sigue. Aunque, muchas de estas necesidades varían dependiendo de la persona; algunos son delgados y ágiles y necesitan menos provisiones, mientras que otros son más grandes y fuertes, por lo que necesitan más para seguir adelante.\n\nComidas y bebidas pueden ser consumidas desde la ventana de inventario, haciendo click sobre ellas con BDR o pulsando \"Q\", si el ítem esta en un hueco suplementario.\n\nEn la ventana de información del LUCH-12, puedes ver todos los parámetros vitales del personaje.  Estate atento a ellos o puede que no consigas sobrevivir tu próximo encuentro.\n\nEl frío es algo a lo que el personaje siempre está expuesto. Ropas calientes, bebidas alcohólicas, comida caliente, hogueras y correr son cosas que previenen o disminuyen las posibilidades de que te congeles. Algunas construcciones pueden ser un refugio contra el frío.\n\nEl personaje solo puede llevar una cantidad limitada de peso en su inventario base. Este límite es diferente en cada personaje y mayormente, depende de la fuerza. Una vez excedido el peso máximo, el personaje esta sobrecargado y no podrá correr. Además la fatiga aparecerá antes cuando estés sobrecargado.\n\nLa capacidad base del inventario puede ser aumentada equipando bolsas y mochilas.\n\nEstas bolsas extra, o mochilas, pueden ser encontradas en el Mundo y podrán ser equipadas desde la ventana del inventario.\n\nTu personaje no puede atacar mientras corre. Una vez que empiezas a atacar, el personaje pasará automáticamente de correr a andar. Si corres con un arma y quieres atacar, el primer click cambiará el personaje a caminando, cuando hagas el segundo click hará el primer ataque. Cuando estas caminado o agachado, puedes atacar en el primer click.",
+                "topics" : {}
+            },
+            "rest" : {
+                "name" : "Descansar",
+                "text" : "El personaje puede descansar en camas y bañeras vacías, pero asegúrate de que el lugar es seguro. Los enemigos pueden matarte mientras duermes. Si tu personaje ha sido mal herido o tiene la salud muy baja, el/ella no podrá dormir hasta que se haya curado lo suficiente.",
+                "topics" : {}
+            },
+            "hiding" : {
+                "name" : "Esconderse",
+                "text" : "Tu personaje puede esconderse en lugares como armarios, letrinas, cubos de basura, cabinas de teléfono o determinados kioskos.",
+                "topics" : {}
+            },
+            "vehicles" : {
+                "name" : "Vehículos",
+                "text" : "Los vehículos que funcionan, son raros de encontrar en la zona de cuarentena de Duga - 40, pero aún quedan unos pocos que pueden ser reparados, si tienes los objetos y la habilidad suficiente.",
+                "topics" : {}
+            }
+        }
+    },
+    "crafting" : {
+        "name" : "CREACION",
+        "text" : "La ventana de Creación te permite combinar ciertos ítems para crear otros nuevos. Recuerda, debes tenerlos en el inventario para poder usarlos. También puedes desmontar o romper ítems para conseguir otres ítems desde la ventana de Inventario (por ejemplo, romper libros para obtener papel o romper una linterna para obtener una batería).\n\nLos ítems más simples, no requieren ningún nivel de habilidad y están disponibles desde el principio. Cuanto más alta sea tu habilidad de Creación, cosas mas complejas podás hacer.",
+        "topics" : {}
+        }
+    }
+}

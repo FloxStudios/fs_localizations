@@ -1,0 +1,121 @@
+﻿/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Quests info database */
+
+{
+	"1" : {
+		"name" : "¡¡¡Más chocolate!!!",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Llévale chocolate a ese hambriento... ¿¿¿Cajero???",
+				"success_text" : "Trae tabletas de chocolate a ese Cajero y el te dará una ;)",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "¡Tráeme el chocolate ya! ¡¡¡¡¡¡Chocolate-chocolate-chocolate!!!!!!"
+					}
+				}
+			}
+		},
+		"success_commands" : [ "replace_dialog 4 2" ],
+		"fail_commands" : []
+	},
+	"2" : {
+		"name" : "Continuar la aventura",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "El Explorer está más dañado de lo que esperaba. No lo puedo arreglar con lo que llevo encima. Si no encuentro recambios para las partes que están rotas, debería irme olvidando de llegar a la Resistencia. \n\n Radiador \n\n Caja de cambios \n\n Cabeza de cilindro",
+				"success_text" : "He encontrado todo lo que necesitaba. Finalmente puedo irme de este sitio alejado de la mano de Dios.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Encuentra las partes para arreglar el Explorer. \n\n Radiador \n\n Caja de cambios \n\n Cabeza de cilindro"
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+		"3" : {
+		"name" : "Foul tween",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "El hermano de Maxim está encerrado en un garaje detrás del Supermercado de la calle Novator. Mátalo y llévale el reloj a Olga.",
+				"success_text" : "Has ayudado a Olga a vengar su marido.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : " Mata al hermano de Maxim."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+	    "4" : {
+		"name" : "Niños perdidos",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "No fue difícil descifrar los sin sentidos de el viejo. El cree que las muñecas de plástico son sus hijos y aparentemente un par de ellos se han perdido.\n\n No debería ser difícil encontrar unos muñecos para este tío, le harán sentir mejor.",
+				"success_text" : "La familia se ha reunido",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Consigue dos muñecos de plástico para el viejo."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+		"5" : {
+		"name" : "Perro extraviado",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "El niño enfadado de la cabaña parece preocupado por su perro Finik, el cual escapó de la cabaña hace unos días y aún no ha vuelto.",
+				"success_text" : "DEP pequeño amigo.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Encuentra alguna información sobre el perro del niño."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+}
+

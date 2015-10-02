@@ -1,0 +1,65 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/* Manuals info database  */
+{
+    "intro" : {
+        "name" : "INTRO",
+        "text" : "Greetings and welcome to the incredible\"LUCH-12\". In this user guide we will introduce you to the innovations that have resulted from the twelfth version of a long and successful line of innovative portable interfaces.\n\nThe\"LUCH -12\" was designed by two outstanding scientists Dr. Ken Takayanagi and Prof. Iliya Zworykin in K.B. SVET,  as a personal assistant and health monitor in one easy to use, compact device.\n\nIn this twelfth version of LUCH we have made vast improvements which allow a much higher screen resolution, 20% faster processor and multitasking which allows you to have two different tabs active at once.\n\nAll the important information about your \“LUCH-12\” is contained here and can be accessed at any time. Please read the manual carefully, your life and/or safety may depend on it.\n\nAdditional information about the city, locations and people can be obtained from \"EUREKA\" terminals. If you are new to the city, please remember to download the tourist map to your \“LUCH-12\” from the nearest terminal.\n\nThank you for using LUCH -12\n\n\nK.B. SVET",
+        "topics" : {}
+    },
+    "controls" : {
+        "name" : "CONTROLS",
+        "text" : "This section provides an overview of the key game mechanics, controls, LUCH-12 functionality, and everything else you need to know.",
+        "topics" : {
+            "basics" : {
+                "name" : "Basics",
+                "text" : "\"W,A,S,D\" and mouse - To navigate your character in the World.\n\n\"LMB\" - Attack.\n\n\"R\" - reload.\n\n\"1, 2, 3\" - Swap between the equipped weapons. \"1\" - is always unarmed.In some cases NPCs will not talk to you until you have a weapon in your hands or will consider you as a threat and attack you.\n\n\"4, 5\" -  Swap between equipped supplementary items.\n\n\"RMB\" - Rotates the camera.\n\n\"Scroll wheel\" - Moves camera up and down, also drags the camera to look farther.\n\n\"E\" - Allows you to interact with objects. Sometimes, you need to Hold \"E\" in order to access additional functionality with  the object (ex. open a door's lock, or cooking). All interactable objects are highlighted with different colours: orange - hideouts, blue -  lootable items, green - doors and portals, places for sleep - yellow, dead enemies - red.\n\n\"C\" - Focuses your character's hearing. Focus hearing reveals hidden or obscured enemies and their sight field. When using focus hearing, you cannot run.\n\n\"Space Bar\" - Crouch.\n\n\"CapsLock\" - Toggles between running and walking.\n\n\"Tab\" - Opens/Closes LUCH-12 , the red button on the top-right side of the LUCH-12 will also turn it off.\n\n\"Q\" - Use/Consume/Set a supplementary item. An item that can be placed in the world will appear as a blue semi-transparent shape. Once you find a place to set it, press \"E\", to make it an active object in the World. Press \"Q\" again, if you want to cancel. (ex. A campfire for instance will appear as a blue semi-transparent pile of wood.)\n\n\"F\"- Turns a flashlight on/off. The flashlight must be equipped in one of the Gadget slots. Hold \"F\" to change a battery in the flashlight without opening LUCH-12, alternatively you can do it in the inventory tab of LUCH-12.",
+                "topics" : {}
+            },
+            "luch" : {
+                "name" : "LUCH-12",
+                "text" : "[b]Inventory[/b] - Displays the items carried by the character. The character can drop, use and/or consume items from the inventory by clicking the right mouse button on the item.\n\n[b]Skills[/b] - Contains information about a character's traits, stats and skills. Throughout the game you can increase and adjust those parameters using special drug called \"Antrazidol\". \n\n[b]Map[/b] - LUCH-12 has a general map of the city and its outskirts. Using the city map you can travel between available locations instantly. \n\n[b]Info[/b] - Shows the physical state of the character and equipped items. To equip an item, simply select something you want to put on your character from the Inventory tab and drag  it into a corresponding slot in the Info tab.\n\n[i]Armor[/i] -The character can equip two pieces of armor at a time: Head and Body.\n\n[i]Weapon[/i] - There are two weapon slots available. Empty bottles, cans, bricks and rocks are also considered to be weapons, although some of them may not inflict any damage.\n\n[i]Supplementary Items[/i] - Another two slots available for supplementary items: food, drinks, campfires, radios, etc.. You can put almost anything there  that you want to have close at hand.(except weapons and armor).\n\n[i]Gadgets[/i] - These slots are meant for different devices that can make your life easier. (ex. A flashlight can be equipped here, if you want to use it. Remember to replace the battery if it's dead.\n\n[b]Crafting[/b] - Here you can create and fix new items from the resources you have collected. More information can be found in the section called \"CRAFTING\"\n\n[b]Journal[/b] - Keeps important notes, tasks, information about people and places.\n\n[b]Manual[/b] -  This tab stores all one needs to know about the game and how it works. If you feel frustrated take a peek in the manual. If something isn't working the way it supposed, please contact our highly experienced personnel at K.B. SVET using this email (support@snowarcstudio.com)",
+                "topics" : {}
+            },
+            "campfire_cooking" : {
+                "name" : "Campfire and Cooking",
+                "text" : "Campfires are the simplest and the most accessible source of heat. Standing by the fire quickly restores your body temperature to normal, although the farther you stand from the fire the less benefit you will get from it.\n\nThe fire has a limited duration, but it can be extended by adding extra wood to it while it's active.\n\nAll raw ingredients, which are inedible in their initial state, can be cooked on a campfire. Cooked food will have a more positive effect on replenishing hunger and will also slightly increase body temperature. Basic food recipes are stored in LUCH-12 in the Crafting section.",
+                "topics" : {}
+            },
+            "character" : {
+                "name" : "Character",
+                "text" : "Your character is a living human being, at least for now. As all human beings he/she has basic needs : food, water, shelter and so on. However, severity of needs varies from person to person; some are slim and nimble and require less provision, while others are stronger and more resilient, thus need more resources to keep going.\n\nFood and Drinks can be consumed from the Inventory tab, by clicking on them with RMB or by pressing \"Q\" , if the item is equipped in a Supplementary Item slot.\n\nIn the INFO tab of the LUCH-12 all vital parameters of the character are displayed.  Keep a close eye on them, otherwise you might not be able to survive your next encounter.\n\nCold is a threat the character is constantly exposed to. Warm clothes, alcoholic drinks, heated food, campfires and running are things that can prevent or diminish frostbite. Some buildings can provide a moderate shelter from cold.\n\nThe character can carry only a limited amount of weight in his/her base inventory. This limit is different for every character, and mainly depends on his/her strengths. Once the limit has been exceeded, the character becomes overloaded and is unable to run. Fatigue will also build quicker, when overloaded.\n\nThe capacity of the base inventory can be increased by equipping extra bags and backpacks.\n\nThese extra bags, pouches or backpacks can be  found in the World and simply equipped in the inventory tab.\n\nYour character cannot attack while running. Once you start attacking, the character will automatically stop running and toggle to walking. If you run with a weapon and want to attack the first click will place your character back into walk mode, upon the second click he/she will perform the attack.When you are in walk or crouch mode you can start attacking immediately.",
+                "topics" : {}
+            },
+            "rest" : {
+                "name" : "Rest",
+                "text" : "The character can sleep in beds and empty bathtubs, but make sure you find a safe place, enemies can kill you while you sleep. If your character has been badly wounded or has very low health, he/she will not be able to sleep until you have healed enough.",
+                "topics" : {}
+            },
+            "hiding" : {
+                "name" : "Hiding",
+                "text" : "Your character can hide in places like large wardrobes, privies, dumpsters, telephone boxes and certain kiosks.",
+                "topics" : {}
+            },
+            "vehicles" : {
+                "name" : "Vehicles",
+                "text" : "A fully functional car is quite a rarity in the quarantine zone around Duga - 40, but there are still a few that can be fixed if you have the right skills and parts.",
+                "topics" : {}
+            }
+        }
+    },
+    "crafting" : {
+        "name" : "CRAFTING",
+        "text" : "The Crafting tab allows you to combine certain items together to make something new from the resources you have collected. Remember, they must be in your inventory in order for you to use them.  You also can strip down certain items in the Inventory tab to salvage useful resources. (ex. tear apart books for paper, or break down a flashlight to get an extra battery.\n\nThe simplest items don't require any level of crafting skill, and are available to your character right from the beginning. The higher your crafting skill though the more complex things you will be able to make.",
+        "topics" : {}
+        }
+    }
+}

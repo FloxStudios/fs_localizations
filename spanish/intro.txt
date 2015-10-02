@@ -1,0 +1,42 @@
+﻿{
+	"1" : {
+		"timer" : 15.0,
+		"text" : "El primer Messenger fue descubierto en la estepa siberiana, hace casi ochenta años por un equipo de expedición geológica. Veinte años más tarde, se encontró otro objeto similar al de Siberia, el cual fue encontrado en el fondo del Océano Pacífico, sin embargo estaba claro, que éste había llegado mucho antes."
+	},
+
+	"2" : {
+		"timer" : 15.0,
+		"text" : "Estos descubrimientos, nos hicieron abrir nuestros ojos al mundo y darnos cuenta de lo insignificantes que somos. Así que como niños ignorantes, queriendo satisfacer nuestra curiosidad, empezamos a realizar cientos de experimentos, algunos de los cuales, van más allá de lo ético y moral, apenas se podrian considerar cerca de lo legal."
+	},
+
+	"3" : {
+		"timer" : 17.0,
+		"text" : "Después de estos años, es muy difícil, bueno, casi imposible, decir quién o cuál de estos artefactos es el responsable de la aparición del primer Lazarus Pillar. Sin embargo, sabemos que los primeros rumores sobre nuevas enfermedades y criaturas extrañas, provenían un pequeño pueblo minero en un lugar llamado Chagan, en SSR Kazakhstan."
+	},
+
+	"4" : {
+		"timer" : 15.0,
+		"text" : "De alguna manera, los \"Lazarus Pillars\" pueden alterar el ADN de organismos vivos, convirtiéndolos así, en unas abominaciones con una implacable hambre de carne de cualquier tipo. Devorando otros organismos, las victimas parecían mutar en unas máquinas de matar mas fuertes e imparables, o llamémoslas Híbridos. Parte humano, parte pura maldad."
+	},
+
+	"5" : {
+		"timer" : 13.0,
+		"text" : "A pesar de todos los intentos de destruir los Pillars mas importantes, nos dimos cuenta de un hecho muy curioso: si nuestro enemigo se encuentra a bajas temperaturas, su metabolismo se hace mas lento y las mutaciones son mucho menos agresivas y peligrosas. En otras palabras, ellos entran en una especie de hibernación o como paso a llamarse luego, Frozen State."
+	},
+
+	"6" : {
+		"timer" : 20.0,
+		"text" : "Este pequeño descubrimiento fue clave. Y muy pronto empezó la primera operación internacional: \"White Night\". Un sistema de control climático a escala global. Una cadena de satélites en órbita alrededor de la Tierra, cuya misión es rociar la atmosfera con un químico especial, para formar una pequeña capa reflectora. El plan era reducir la cantidad de calor que provenía del Sol, para así crear una pequeña y controlada época glacial. Y realmente funcionó."
+	},
+
+	"7" : {
+		"timer" : 8.0,
+		"text" : "Al principio todo iba a nuestro favor, cuando las temperaturas descendieron, los Híbridos empezaron a ser considerablemente más débiles. Usamos este pequeño descanso para construir y rescatar campamentos, también para reunir a toda la gente que no estuviese infectada."
+	},
+
+
+	"8" : {
+		"timer" : 15.0,
+		"text" : "Pero el tiempo pasaba rápidamente. No habíamos conseguido avanzar en nada que nos permitiera destruir los Pillars. Las reservas de comida y medicina disminuían rápidamente, los asentamiento no podían sostener el crecimiento de la población, había disturbios a las afueras y a pesar de las restricciones y los esfuerzos para que la gente no saliese de los asentamientos, algunos empezaron a buscar, un lugar mejor…"
+	}
+}

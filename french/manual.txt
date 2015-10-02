@@ -1,0 +1,65 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/* Manuals info database  */
+{
+    "intro" : {
+        "name" : "INTRO",
+        "text" : "Félicitation et Bienvenue dans l'incroyable \"LUCH-12\". Dans ce guide d'utilisation nous allons vous faire découvrir les innovations qui sont le résultat de 12 versions d'une longue et réussie ligne d'innovation d'interfaces portables.\n\nLe\"LUCH -12\" a été conçu par deux éminents scientifiques le Dr Ken Takayanagi et le Prof. Iliya Zworykin dans le KB SVET, comme un assistant personnel et un moniteur de santé deux en un, facile à utiliser et compact.\n\nDans cette douzième version du LUCH nous avons fait de grandes améliorations qui permettent une résolution d'écran beaucoup plus élevé, un processeur 20% plus rapide et multi-tâches qui vous permet d'avoir deux onglets différents actif à la fois.\n\nToutes les informations importantes sur votre \"Luch-12\" sont contenues ici et peut être consultées à tout moment. Je vous en prie lisez le manuel attentivement, votre vie et/ou sécurité peut en dépendre.\n\nDes informations additionnelles sur les villes, régions, et les gens peuvent être obtenues par les terminaux \"EUREKA\" . Si vous êtes nouveau en ville, souvenez-vous je vous prie, de télécharger la carte touristique dans votre \“LUCH-12\” à partir du terminal le plus proche.\n\nMerci d'utiliser votre LUCH -12\n\n\nK.B. SVET",
+        "topics" : {}
+    },
+    "controls" : {
+        "name" : "CONTROLES",
+        "text" : "Cette section vous fourni un aperçu des mécanismes du jeu, contrôles, fonctionnalités du LUCH-12 et tout ce que vous avez besoin de connaitre.",
+        "topics" : {
+            "basics" : {
+                "name" : "Bases",
+                "text" : "\"Z,Q,S,D\" et souris - Pour déplacer votre personnage dans le monde.\n\n\"BGS\" - Attaquer.\n\n\"R\" - Recharger.\n\n\"1, 2, 3\" - Naviguer entre les différentes armes équipées. \"1\" - est toujours à mains nues. Dans certains cas les PNJs ne voudront pas vous parlez tant que vous aurez une arme à la main ou ils pourront vous considérer comme une menace et  vous attaquer.\n\n\"4, 5\" -  Naviguer entre les objets supplémentaires équipés.\n\n\"BGS\" - Pivoter la caméra.\n\n\"Molette Souris\" - Bouge la caméra de haut en bas, bougez aussi la caméra pour voir plus loin.\n\n\"E\" - Vous permet d'interagir avec les objets. Parfois, vous devrez maintenir la touche \"E\" pour pouvoir accéder à des fonctionnalités additionnelles avec les objets (ex. ouvrir une porte verrouillée, or cuisiner). Tous les objets avec lesquels vous pouvez interagir sont mis en évidence avec différentes couleurs: orange - planques, bleue -  objets à fouiller, green - portes et portails, jaune - endroits ou dormir, rouge - ennemis morts.\n\n\"C\" - Concentration sur la perception auditive de votre personnage. Concentration sur l'écoute de votre personnage. La perception auditive peut révéler des ennemis cachés ou dissimulés et leur champ de vision. Quand vous utiliser l'écoute, vous ne pouvez pas courir.\n\n\"Barre Espace\" - Accroupir.\n\n\"Verr.MAJ\" - Bascule entre Courir et Marcher.\n\n\"Tab\" - Ouvre/Ferme le LUCH-12 , Le bouton rouge dans le coin supérieur droit peut aussi le fermer.\n\n\"Q\" - Utiliser/Consommer/Définir un objet supplémentaire. Un objet qui peut être placé dans le monde apparaitra comme une forme semi-transparente bleue. Une fois que vous trouver un endroit ou le placer, appuyez sur \"E\", pour faire de lui un objet actif du monde. Appuyez sur \"Q\" encore, si vous voulez annuler. (ex. Un feu de camp, par exemple, apparaîtra comme un tas de bois semi-transparent de couleur bleue.)\n\n\"F\"- Allumez/Eteindre la lampe torche. La lampe torche doit être équipée dans un des emplacements de Gadget. Maintenez appuyé sur \"F\" pour changer la batterie de la lampe torche sans avoir besoin d'ouvrir le LUCH-12, vous pouvez aussi le faire par l'onglet inventaire du LUCH-12.",
+                "topics" : {}
+            },
+            "luch" : {
+                "name" : "LUCH-12",
+                "text" : "[b]Inventaire[/b] - Affiche les objets transportés par le personnage. Le personnage peu déposer, utiliser et/ou consommer des objets de son inventaire en cliquant avec le bouton de droit de la souris sur l'objet.\n\n[b]Statistiques[/b] - Contiens des informations sur les traits, statistiques et talents du personnage. Tout au long du jeu vous pouvez augmenter et ajuster ces paramètres en utilisant un médicament spécial nommé \"Antrazidol\". (Cet onglet n'est PAS encore disponible)\n\n[b]Carte[/b] - LUCH-12 a une carte générale de la ville et de sa périphérie. En utilisant la carte de la ville vous pouvez voyager entre des destinations disponibles instantanément. (Cet onglet n'est PAS encore disponible).\n\n[b]Info[/b] - Affiche l'état physique de votre personnage et des objets équipés. Pour s'équiper d'un objet, sélectionnez simplement quelque chose que vous voulez mettre sur votre personnage depuis l'onglet d'inventaire et déplacez le dans l'emplacement correspondant dans l'onglet Info.\n\n[i]Armure[/i] -Le personnage peut s'équiper de deux pièces d'armure en même temps: Tête et corps.\n\n[i]Arme[/i] - Il y a deux emplacements d'arme disponibles. Bouteilles vides, boites de conserves, briques et pierres sont aussi considérées comme des armes, néanmoins certaines d'entre elles peuvent ne pas infliger de dommages.\n\n[i]Objet Supplémentaire[/i] - Deux autres emplacements sont disponibles pour des objets supplémentaires: nourriture, boissons, feux de camps, radios, etc.. Vous pouvez y mettre à peut prêt tout ce que vous voulez avoir a portée de main.(à l'exception d'armes et d'armures).\n\n[i]Gadgets[/i] - Ces emplacements sont destinés pour des dispositifs pouvant rendre votre vie plus simple. (ex. Une lampe torche peut être équipée dans cet emplacement, si vous voulez l'utiliser. Souvenez vous de remplacer les piles si elles sont mortes.\n\n[b]Artisanat[/b] - Ici vous pouvez créer et arranger de nouveaux objets à partir des ressources que vous avez récolté. Plus d'informations peuvent être obtenues dans la section appelée \"ARTISANAT\"\n\n[b]Journal[/b] - Conserve des notes importantes, tâches, informations sur les gens et les lieux.(Cet onglet n'est PAS encore disponible).\n\n[b]Manuel[/b] -  Cet onglet contient tout ce que chacun doit connaitre sur le jeu et son fonctionnement. Si vous vous sentez frustré jetez un coup d'oeil dans le manuel. Si quelque chose ne fonctionne pas comme il le devrait, merci de nous remonter votre expérience personnelle détaillée à K.B. SVET en utilisant cet email (support@snowarcstudio.com)",
+                "topics" : {}
+            },
+            "campfire_cooking" : {
+                "name" : "Feu de camp et cuisine",
+                "text" : "Les feux de camps sont la plus simple et la plus accessible source de chaleur. Se tenir près d'un feu restaure rapidement votre température corporelle à la normale, aussi le plus loin vous êtes du feu le moins de bénéfices vous en retirerez.\n\nLe feu a une durée limitée, mais elle peut être prolongée en y rajoutant du bois supplémentaire tant qu'il est actif.\n\nTous les ingrédients cru, qui sont indigestes dans leur état initial, peuvent être cuisinés sur un feu de camp. La nourriture cuisinée aura des effets plus positifs sur la restauration de la faim et pourra aussi légèrement augmenter votre température corporelle. Les recettes de cuisine basiques sont stockée dans le LUCH-12 dans la section Artisanat.",
+                "topics" : {}
+            },
+            "character" : {
+                "name" : "Personnage",
+                "text" : "Votre personnage est un être humain vivant, du moins pour l'instant. Aussi comme tout les humains il/elle a des besoins de bases : nourriture, eau, abris et ainsi de suite. Cependant, la quantité de ces besoins varie d'une personne à l'autre; certaines sont minces et agiles et auront besoin de moins de provisions,pendant que d'autres sont plus fortes et résistantes, donc ont besoin de plus de ressources pour continuer d'avancer.\n\nNourriture et Boissons peuvent être consommées depuis l'onglet Inventaire, en cliquant sur eu avec le bouton droit de la souris ou en appuyant sur \"Q\" , si l'objet est équipé dans un emplacement d'objet supplémentaire.\n\nDans l'onglet Info du  LUCH-12 tous les paramètres vitaux du personnage sont affichés.  Gardez un oeil sur eux, autrement vous pourriez ne pas être capable de survivre à votre prochaine rencontre.\n\nLe froid est une menace à laquelle le personnage est constamment exposé. Vêtements chauds, boissons alcoolisées, nourriture chaude, feux de camps et courir sont des choses qui peuvent vous prémunir ou diminuer les gelures. Certains bâtiments peuvent fournir un abris modéré contre le froid.\n\nLe personnage peut porter seulement une quantité limité de poids dans son inventaire de base. Cette limite est différente pour chaque personnage, et dépends principalement de sa force. Une fois que la limite de poids a été dépassée, le personnage devient surchargé et est incapable de courir. La fatigue arrive plus vite, quand vous êtes surchargé.\n\nLa capacité de l'inventaire de base peu être augmentée en ajoutant des sacs et sacs à dos supplémentaires.\n\nCes sacs de plus, poches, et sacs à dos peuvent être trouvés dans le monde et simplement équipés dans l'onglet d'inventaire.\n\nVotre personnage ne peut pas attaquer en courant. Quand vous commencer une attaque, le personnage va automatiquement arrêter de courir et se mettre à marcher. Si vous courrez avec une arme et que vous attaquez le premier clic aura pour effet de mettre votre personnage en mode marche, au second clic le personnage fera une attaque. Quand vous êtes accroupis ou en mode marche, vous pouvez attaquer immédiatement.",
+                "topics" : {}
+            },
+            "rest" : {
+                "name" : "Repos",
+                "text" : "Le personnage peut dormir dans des lits et baignoires vides, Mais assurez-vous de trouver un endroit sûr but, les ennemis peuvent vous tuer pendant votre sommeil. Si votre personnage a été salement touché ou a une santé très basse, il/elle ne sera pas capable de dormir jusqu'à ce que vous l'ayez soigné assez.",
+                "topics" : {}
+            },
+            "hiding" : {
+                "name" : "Se Cacher",
+                "text" : "Votre personnage peut se cacher dans des endroits comme des grandes penderies, latrines, poubelles, cabines téléphonique, et certains kiosques.",
+                "topics" : {}
+            },
+            "vehicles" : {
+                "name" : "Véhicules",
+                "text" : "Une voiture entièrement fonctionnelle est assez rare dans la zone de quarantaine autour de Duga - 40, mais il y en a quelques-unes qui peuvent être arrangées si vous avez les bonnes compétences et les bonnes pièces.",
+                "topics" : {}
+            }
+        }
+    },
+    "crafting" : {
+        "name" : "CRAFTING",
+        "text" : "L'onglet d'Artisanat vous permet de combiner ensemble certains objets pour faire quelque chose de nouveau à partir des ressources que vous avez collecté. Souvenez-vous qu'ils doivent être dans votre inventaire pour vous permettre de les utiliser.  Vous pouvez aussi démonter certains objets dans l'onglet d'inventaire pour récupérer des ressources utiles.(ex. déchirer les pages d'un livres pour le papier, ou démonter une lampe de poche pour récupérer une pile.\n\nLes objets les plus simples ne nécessitent pas de niveau de compétence en artisanat, et sont disponibles pour votre personnage dès le début. Plus votre niveau de compétence en artisanat sera élevée plus les objets que vous pourrez réalisés seront complexes.",
+        "topics" : {}
+        }
+    }
+}

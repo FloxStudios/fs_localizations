@@ -1,0 +1,1953 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Dialogs info database */
+
+{
+	"1" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Holaaa, Ciudadano!\n\n Yo soy ARCHIMEDES, Un súper ordenador que conecta todos los \"Eureka\" Terminales y \"OKO\" CCTVs a lo largo de la ciudad en una sola red. Puedes preguntarme cualquier cosa, y estoy seguro de que mi infinita inteligencia podrá encontrar la respuesta. ",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Así que, como te puedo ayudar, ¿Ciudadano? \n\n [¡ALERTA!] Debido a un problema en la red de suministro eléctrico, todos los sistemas pasan a usar la fuente de alimentación de emergencia. Si no esta satisfecho con la respuesta, por favor repita la pregunta más tarde, cuando la fuente de energía se haya arreglado.",
+						"next_block" : 3
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : true,
+				"records" : {
+					"4" : {
+						"text" : "Nada! Adios",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "¿Qué hora es?",
+						"next_block" : 6
+					},
+					"3" : {
+						"text" : "¿Dónde estoy?",
+						"next_block" : 4
+					},
+					"1" : {
+						"text" : "¿Por qué sigues funcionando?",
+						"next_block" : 8
+					},
+				}
+			},
+			"4" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Tu eres feo, ¡¡¡Pequeño humano!!!No te diré nada.... bip...bip...Vete...bip... \n\n[i]De repente, la pantalla se puso negra[/i] ",
+						"next_block" : 5
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Recuérdame que te destroce mas tarde, ¿ok?",
+						"next_block" : -1
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "...Tu eres joven y te queda una larga vida así que hay tiempo para MATAR hoy... \n\n... bip bip ...Fragmentación 98%... \n\nPasa un buen día, ¡Ciudadano!",
+						"next_block" : 7
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Oh, ¡genial! ¿Que se supone que significa eso? Supongo que tu cerebro se debe haber frito freír.",
+						"next_block" : -1
+					}
+				}
+			},
+			"8" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¿Estas cuestionando mi existencia?! como te atreves...!...tu...!...tu [largo y profundo suspiro] Me has hecho sentir deprimido, déjame a solas, por favor...",
+						"next_block" : 9
+					}
+				}
+			},
+			"9" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Como usted desee, cabeza de hojalata.",
+						"next_block" : -1
+					}
+				}
+			},
+		}
+	},
+
+	"2" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Nada nuevo que contar.",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+
+	"3" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Sé porqué estás aquí! Tú quieres LA MISIÓN, ¿Estoy en lo correcto? Ven aquí, ¡toma esto!",
+						"next_block" : -1,
+						"command_list" : [
+							"start_quest 1"
+							"add_item 603217 3",
+							"replace_dialog 5 4",
+							"replace_dialog 3 6"
+						]
+					}
+				}
+			}
+		}
+	},
+
+	"4" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Dame esas Tabletas de Chocolate! Y una es para ti, te la mereces. Y aquí estamos - tu completaste ¡¡¡LA MISION!!! ¡SIII!.",
+						"next_block" : -1,,
+						"command_list" : [
+							"remove_item 603217 2",
+							"finish_objective 1#1#1 true"
+						]
+					}
+				}
+			}
+		}
+	},
+
+	"5" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¡¡No vuelvas hasta que completes LA MISIÓN!!!",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+
+	"6" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Tu ya obtuviste tu MISION. ¿Qué quieres de mi ahora?",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},	
+    "7" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[Un hombre viejo, sordo, sin vida en sus ojos. Nauseabundo, el mal olor que proviene del hace que te arrepientas de haberte acercado tanto. No obstante, el no parece peligroso] \n\n Estos zumbidos están dándome jaquecas. Puedo escucharlos en todas partes, incluso bajo suelo puedo oírlos, aunque un poco más tenue..... Otros podían escuchar el zumbido pero...pero... ellos cambiaron... ¡¡¡Yo no quiero cambiar!!!\n\nNo puedo subir, el Zumbido es indescriptible en la superficie, Nunca los encontrare......mis niños, mis pobres niños, nunca los encontrare.... [murmura indistintamente ]",
+						"next_block" : -1,
+						"command_list" : [
+							"start_quest 4",
+							"replace_dialog 7 701"
+						]
+					}
+				}
+			}
+		}
+	},
+	"701" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿Mis hijos...?",
+						"next_block" : 2
+					}
+				}
+			},
+					"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Si, anciano, los he encontrado. [Dar los muñecos]",
+						"next_block" : -1,
+						"command_list" : [
+							"finish_objective 4#1#1 true",
+							"replace_dialog 701 702",
+							"remove_item 610121 2"
+						],
+						"checks_list" : [
+							"have_item 610121 2"
+						]	
+					},
+					"2" : {
+						"text" : "Todavía buscandolos",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+	"702" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Oh, mis hijos. Gracias ... ¡muchas gracias! Toda mi familia esta reunida de nuevo y ese ruido es ahora más débil, puedo volver a mi trabajo.. ",
+						"next_block" : 2,
+					}
+				}
+			},
+					"2" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "No me mires con tanto desprecio, yo no fui siempre asi... de esta manera. Antes de perder a mis hijos, era un gran hombre, ¡un hombre importante! Yo estudie esas cosas del espacio... en la Institución...",
+						"next_block" : 3
+					}
+				}
+			},
+					"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : " ¡Se por que ELLOS vinieron a nuestro planeta! ELLOS usan la Tierra como vertedero para sus desechos. ELLOS tiran su basura a nuestras cabezas...y como felices ratas lo aceptamos como si fuese un regalo... ",
+						"next_block" : 4
+					}
+				}
+			},
+					"4" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Es mucho peor de lo que pense. ¡No vuelvas a ... perder a tus hijos otra vez!",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "Esta es la teoría mas ridicula que he escuchado. Estas completamente majareta.",
+						"next_block" : 5
+					}
+				}
+			},
+				     "5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Je-je-je... ",
+						"next_block" : 6
+					}
+				}
+			},
+				     "6" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Mi mente no es tan fuerte como solía ser, pero mi teoría es correcta. Piensa por ti mismo. Dos naves, sin piloto, sin sistemas de apoyo vital. Su mercancia estaba desorganizada y mal empaquetada. Teniendo en cuenta que el 90% de los artefactos solo se podrian describir como dañados o vacios, aplicando nuestra terminología humana. \n\n Incluso el diseño de las naves implicaba que que posiblemente fueran añadidos o modulos de otra estructura mucho mayor.",
+						"next_block" : 7
+					}
+				}
+			},
+					"7" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Si, seguro... no se cual de las dos es más loca, si tu teoria o su explicación. Chao, ¡chiflado!",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "Tiene sentido hasta cierto punto, pero ¿Que se puede hacer?",
+						"next_block" : 8
+					}
+				}
+			},
+			        "8" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Realmente no lo se... Debemos mostrarles que no somos ratas, que poco a poco nos estan matando. Por que si no encontramos una solución, habra más naves y a saber que más nos envian...",
+						"next_block" : 9
+					}
+				}
+			},
+					"9" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Debes de estar en lo cierto despues de todo. Necesito llegar hasta la Resistencia y contarles tu teoría, pero mi Explorer está roto. Sabes donde puedo encontrar piezas de respuesto para un camión grande.",
+						"next_block" : 10
+					}
+				}
+			},
+			        "10" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿Resistencia? ¿Explorer?",
+						"next_block" : 11
+					}
+				}
+			},
+				    "11" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Me dirigía a Alaska, decian que allí hay una gran colonia. El centro de la Resistencia. Pero mientras conducia me tropece con una mina terrestre y ahora estoy atrapado aquí. Necesito piezas de repuesto para arreglarlo. ¿Sabes donde puedo encontrarlas?",
+						"next_block" : 12
+					}
+				}
+			},
+				    "12" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Un grupo militar llamado Nemostor guarda sus suministros en un viejo almacén. Apuesto a que alli podras encontrar cualquier cosa, incluso piezas de repuesto para tu camión. Pero ten cuidado, a esos tios no les gustan encontrar a gente que no invitaron.",
+						"next_block" : 13
+					}
+				}
+			},
+					"13" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Gracias por los avisos. ¡Adiós!",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+	
+"8" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[ Un alto hombre de mediana edad. Se ve feliz y amistoso pero en tu interior algo te dice que mantengas las distancias.]  \n\n ¡Oh! ¡Otro humano vivo!\n\n ¡No he visto a nadie en meses! Supongo que el ultimo con el que hable fue el hombre loco que se escondía en el bunker. Bueno, me constaría llamarlo una conversación, el hombre solo murmuraba cosas sin sentido. Pero a ti se te ve como una persona que quiere contar todo lo que tu alma piensa. \n\n Así que, amigo, ¿me contaras tu historia?",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Preferiría no.",
+						"next_block" : 12
+					},
+					"2" : {
+						"text" : "Soy un superviviente, como tu. En el lugar equivocado en el momento equivocado esa es mi historia. \n\n ¿Que me cuentas sobre ti?",
+						"next_block" : 4
+					},
+					"3" : {
+						"text" : "Yo estaba viajando en mi camión cuando se averió no muy lejos de aquí. Desde entonteces entro en las casas abandonadas buscando partes para intentar arreglar el camión.",
+						"next_block" : 5
+					},
+					"4" : {
+						"text" : "¡Me estás cabreando!",
+						"next_block" : -1
+					}
+					
+				}
+			},
+            "3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Oh bueno, yo solo quería hablar.",
+						"next_block" : -1
+					}
+				}
+			},
+            "4" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ja.. ¡A puesto a que lo eres! Tu no eres una persona muy habladora, ¿Verdad? Lo siento compañero, pero esto es una carretera de doble sentido. Así que al igual que tú, solo soy un superviviente...",
+						"next_block" : -1
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Viajando en camión has dicho, debe de ser guay, ¿¡eh!?... \n\n Yo nací y me crie aquí, era un lugar precioso. Deberías haber visto a la ciudad de Duga en sus buenos tiempos. \n\n de todas formas, cuando este desastre comenzó me uní a un pequeño campamento en la estación de tren. Pasamos un montón de mierdas juntos, pero al menos ahora tenemos algunas normas para mantener el orden. \n\n Dime algo más sobre tu camión, ¿Dónde esta y que es lo que le ha pasado?  ",
+						"next_block" : 6
+					}
+				}
+			},
+            "6" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Espera un momento! Acabas de decir que no has hablado con nadie en meses, ¿Que ha pasado con la gente del campamento?",
+						"next_block" : 7
+					},
+					"2" : {
+						"text" : "Bueno ya sabes, esta empezando a hacer más frio es mejor que siga mi camino. ",
+						"next_block" : 12
+					},
+					"3" : {
+						"text" : "¿he dicho camión? No-no, simplemente un coche pequeño. No he conseguido mucho y parece que no tiene arreglo.\n\n Debo irme ahora. Nos vemos,.... quizás,... algún día... ",
+						"next_block" : 8
+					},
+					"4" : {
+						"text" : "Pienso que eres una montaña de mierda. ¡Vete antes de que te reviente la cabeza!\n\nlo digo en serio, ¡¡¡aléjate de mi!!! ",
+						"next_block" : 9
+					}
+					
+				}
+			},
+			"7" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Hmmm...emmm... Me refiero a gente nueva, ya sabes, no de mi campamento. Una cara nueva... noticias frescas...no importa! debo llegar al campamento antes de que anochezca, espero que nos volvamos a ver. ¡Siento bastante curiosidad sobre tu camion!\n\n ¡Permanece a salvo Superviviente! "
+					    "next_block" : -1
+					}
+				}
+			},
+		    "8" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¿Llamas a tu coche, camión?! ¿Se te ha congelado el cerebro o te estas burlando de mí?",
+						"next_block" : 10
+					}
+				}
+			},
+		    "9" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Tranquilo! Solo estaba siendo curioso, ¡solo eso! No es necesario comportarse como un estúpido. Vuelve cuando te hayas calmado.",
+						"next_block" : -1
+					}
+				}
+			},
+	        "10" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Coche o camión, no importa, el punto es que esta estropeado. Creo que ya he dicho bastante. ¡Cuídate!",
+						"next_block" : -1
+					},
+				    "2" : {
+						"text" : "Corta el rollo, apenas te conozco así que no esperes que te habrá mi corazón. Un hombre como tú lo debería comprender.",
+						"next_block" : 11
+					},
+				    "3" : {
+						"text" : "Esta conversación carece de sentido, hagamos como que nunca ha sucedido.",
+						"next_block" : -1
+					}
+				}
+			},
+		    "11" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Me parece justo. Quizás cuando nos conozcamos mejor pueda echarte una mano con el camión... Me refiero a tu coche. \n\n ¡Nos vemos, Amigo!",
+						"next_block" : -1
+					}
+				}
+			},
+		    "12" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Como quieras, Yo simplemente quería ayudar. Estaré por aquí si cambias de opinión.",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+	
+"9" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Acercándote a esta horrible estructura alienígena puedes escuchar una especie de pulso. Te hace sentir escalofríos que recorren tu cuerpo, tu naturaleza como humano te hace odiar este sonido... Con un gran esfuerzo pudiste libarte de su control hipnótico.",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+"10" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[La puerta de la cabaña parece estar atrincherada desde el interior. Puedes oir la voz de un niño]\n\n¡Alejate! Ni intentes romper la puerta, ¡es una trampa explosiva y tengo el detonador!",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Chico relajate! No te voy a hacer daño.",
+						"next_block" : 3
+					},
+					"2" : {
+						"text" : "Chico, ¿cual es tu nombre?",
+						"next_block" : 5
+					},
+					"3" : {
+						"text" : "¡Quedate solo, pequeño pedazo de mierda! ¡Espero que te coma vivo alguna de esas criaturas!",
+						"next_block" : 22
+					},
+					"4" : {
+						"text" : "[Alejarse]",
+						"next_block" : -1
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Yo no soy un niño tonto, ¡He visto un monton de tu clase! ¡Vete ahora o volare esta cabaña!",
+						"next_block" : 4
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : true,
+				"records" : {
+					"2" : {
+						"text" : "Esta bien, ¡Me voy!",
+						"next_block" : -1
+					},
+					"1" : {
+						"text" : "¿De mi clase? ¿De que estas hablando? ¿De que clase hablas?",
+						"next_block" : 20
+					}
+				},
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Nombre, ¿aja? ¿Que mas quieres? ¿Quizas dejarte entrar y asi podrias asaltar mi casa y matarme o hacer otras cosas?",
+						"next_block" : 6
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Entiendo tu desconfianza, pero llevo bastantes suministros. Incluso podria darte algo, si lo necesitas. ¿Quieres chocolate o caramelos?",
+						"next_block" : 7
+					},
+					"2" : {
+						"text" : "Lo que sea, estoy perdiendo mi tiempo.",
+						"next_block" : -1
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Puedes meterte tu chocolate por el culo! Necesito carne para alimentar a mi perro. ¿Tienes carne enlatada?",
+						"next_block" : 8
+					}
+				}
+			},
+			"8" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Carne enlatada a cambio de tu nombre, ¿Trato?",
+						"next_block" : 9
+					},
+					"2" : {
+						"text" : "No, no tengo. Pero, ¿quizas necesitas otra cosa?",
+						"next_block" : 19
+					},
+				    "3" : {
+						"text" : "Tengo un montón de latas, pero no te dare ni media lata. ¡Quizas, cuando tu perro muera de hambre empiezas a tratar la gente un poco mejor!",
+						"next_block" : -1
+					}
+				}
+			},
+			"9" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Tres latas! ¡Y no abro la puerta, solamente te digo mi nombre!",
+						"next_block" : 10
+					}
+				}
+			},
+			"10" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Eres un negociador duro, pero OK! Aquí, coge tus latas. [Dar tres latas] ",
+						"next_block" : 11,
+						"command_list" : [
+							"remove_item 603204 3"
+						],
+						"checks_list" : [
+							"have_item 603204 3"
+						]	
+					},
+					"2" : {
+						"text" : "He cambiado de opinión, mejor me las quedo. ",
+						"next_block" : -1
+					},
+					"3" : {
+						"text" : "No las tengo en este momento, pero volvere con ellas. ",
+						"next_block" : -1
+					}
+				}
+			},
+			"11" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Mi nombre es Yuri Zyablikov, pero mis amigos me llaman Zyablick. Yo vivia con otros niños huerfanos como yo en la escuela abandonada ... antes... antes de ser capturados por esos cerdos de Nemostor. Yo era pequeño y consegui esconderme, pero mis amigos no corrieron la misma suerte ...",
+						"next_block" : 12
+					}
+				}
+			},
+		    "12" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Asi que, ¿Vives aqui tu solo?",
+						"next_block" : 13
+					},
+					"2" : {
+						"text" : "¿Como llegaste a esta cabaña?",
+						"next_block" : 15
+					},
+					"3" : {
+						"text" : "¿Sabes que le ocurrio a tus amigos?",
+						"next_block" : 16
+					}
+				}
+			},
+			"13" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Yo y mi perro Finik, el fue a cazar hace un par de días, aun esta por ahi ... Estoy seguro que volvera en cualquier momento... \n\n\ Quizas te muerda el culo si te quedas mucho ahi. [Risas]",
+						"next_block" : 14
+					}
+				}
+			},
+			"14" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Nunca he querido perder una parte tan preciosa como esa. ¡Buena suerte chico!",
+						"next_block" : 17
+					},
+				    "2" : {
+						"text" : "Tienes una boca muy grande para un pequeño canalla como tu. Me estoy cansando de este sin sentido.",
+						"next_block" : -1
+					}
+				}
+			},
+			"15" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Cuando escape, vague durante dias por los bosques, despues encontre esta cabaña. Estaba vacia, solamente habia un pequeño cachorro en una caja de cartón. Supuse que el tio que vivia aqui antes que yo, debia ser un trabajador de los muelles Zvezdochka. Habia un mono de trabajo con el logotipo de los muelles y algun libro sobre barcos.",
+						"next_block" : 12
+					}
+				}
+			},
+		    "16" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : " [Suspiro] Más bien muertos o pero ... siendo usados como ratas de laboratorio ...",
+						"next_block" : 12
+					}
+				}
+			},
+			"17" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Adulto, espera! No quiero deberte nada por esa comida, asi que toma esta llave. Deberia abrir alguna puerta en los Muelles.",
+						"next_block" : 18,
+						"command_list" : [
+							"add_item 610119 1"
+						]
+					}
+				}
+			},
+			"18" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Gracias! Cuida a tu perro, chico.",
+						"next_block" : -1,
+						"command_list" : [
+							"replace_dialog 10 1002"
+						]
+					}
+				}
+			},
+		    "19" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Necesito carneeee! Sin carne no hablo",
+						"next_block" : -1
+					}
+				}
+			},
+			"20" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Adultos! Todos los adultos son unos mentirosos, algunos son buenos y otros son malo, pero todos quieren controlarte. ¡Sin excepciones!",
+						"next_block" : 21
+					}
+				}
+			},
+		    "21" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¿Que paso con tus padres?",
+						"next_block" : 22
+					},
+				    "2" : {
+						"text" : "Yo no quiero controlarte.",
+						"next_block" : 23
+					}
+				}
+			},
+			"22" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "... ... ... [Silencio]",
+						"next_block" : -1
+					}
+				}
+			},
+		    "23" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Puedo oler tu mentira desde detras de la puerta!",
+						"next_block" : -1
+					}
+				}
+			}
+		}	
+	},
+"1002" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿Otra vez tu? ¿No has encontrado nada util tras esa puerta y vienes pidiendo mas? No importa, Finik aun no ha vuelto. No quiero hablar.",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Ok, si veo a tu perro te lo hare saber.",
+						"next_block" : 3
+					},
+					"2" : {
+						"text" : "Por el amor de Dios, ¡para de quejarte por lo de tu perro!",
+						"next_block" : 4
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Emmm...Gracias... ¡pero no esperes que te deje entrar!",
+						"next_block" : -1,
+						"command_list" : [
+							"replace_dialog 1002 1003",
+							"start_quest_5"
+						]
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Callate, Adulto! ¡Nadie te pidio que volvieras!",
+						"next_block" : -1,
+					}
+				}
+			}
+
+		}
+	},
+	"1003" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿Lo has visto?",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "He encontrado un collar de perro con su nombre en el. ",
+						"next_block" : 3,
+						"checks_list" : [
+							"have_item 610122 1"
+						]	
+					},
+					"2" : {
+						"text" : "No, no lo he encontrado...",
+						"next_block" : -1
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Pruebalo, pasalo por debajo de la puerta. ¡Debo verlo por mi mismo!",
+						"next_block" : 4,
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Si por supuesto [Dar el Collar]",
+						"next_block" : -1,
+						"command_list" : [
+							"replace_dialog 1003 1004",
+							"remove_item 610122 1",
+							"finish_objective 5#1#1"
+						],
+						"checks_list" : [
+							"have_item 610122 1"
+						]		
+					},
+					"2" : {
+						"text" : "No lo llevo conmigo.",
+						"next_block" : -1,
+					}
+				}
+			}
+		}
+	},
+"1004" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Si, este es el collar de Finik! ¡¿Donde lo encontraste?! ¡¿Estaba allí?!",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Mate al Gargantua, ya sabes el Hibrido gigante con cabezas de perro. Una de esas cabezas lo tenía alrededor de su cuello.",
+						"next_block" : 3
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "El se convirtio en un mounstruo ... ¡y tu lo mataste! ¡¿¡¿Has matado a mi perro?!?! ¿Como pudiste?",
+						"next_block" : 4
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Ese enorme monton de carne y dientes era cualquier cosa menos tu perro. Tuve que matarlo.",
+						"next_block" : 5
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[Escuchas sollozos]...Hiciste lo correcto, ¡Yo habria hecho lo mismo! Mejor estar muerto que vivir como uno de esos mounstruos... Tengo algo para ti... por favor, coje este arma... y dejame. Yo quiero morime...",
+						"next_block" : -1,
+							"command_list" : [
+							"replace_dialog 1004 1005",
+							"add_item 601054 1",
+							"add_item 604006 30",
+							"finish_objective 1#1#1 true"
+						]
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Quiero creer que es verdad... pero vosotros los Adultos sois todos unos mentirosos. Finik esta mueto, ¡admitelo!",
+						"next_block" : 8
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "I’d want to believe this is true... but you Adults are all liars. Finik is dead, admit it!",
+						"next_block" : 8
+					}
+				}
+			},
+			"8" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Si, tu perro ha muerto. No queria hacerte daño, eso es todo",
+						"next_block" : 7
+					}
+				}
+			},
+			"9" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡¡¡Cobarde!!!",
+						"next_block" : -1,
+						"command_list" : [
+							"replace_dialog 1004 1005"
+						]
+					}
+				}
+			}
+		}
+	},
+"1005" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "... [Silencio Sepulcral]...",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+"11" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[Una mujer joven, con la cara pálida casi blanca. Parece que un no ha notadao tu presencia] \n\n ¡¡Oh!! ¡¿¡¿Quien eres?!?! ¡¿¡¿Como llegaste a ahi?!?!",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Solo soy un viajero, no queria asustarte. ¿Estas bien?",
+						"next_block" : 3
+					},
+					"2" : {
+						"text" : "No soy nadie, solo busco algunas cosas. ¿Como estas?",
+						"next_block" : 15
+					},
+					"3" : {
+						"text" : "No importa, me voy.",
+						"next_block" : 16
+					},
+					"4" : {
+						"text" : "[Irse] ",
+						"next_block" : -1
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Un viajero, pero como...¡¿¡como llegaste hasta aqui?! Mi marido y yo bloqueamos todos los caminos que llevan a este lugar. La unica forma de que alguien llegue aqui es a través de los tuneles, ¡¡¡pero la puerta esta cerrada y solo dos personas saben la contraseña!!! [ Sostiene un arma con sus manos]",
+						"next_block" : 4
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Yo estaba en los tunerles cuando un Hibrido me ataco, afortunadamente para mi ese bastardo ya estaba herido. Encontre una nota con la contraseña escrita cerca de el. Quizas se le cayo a tu marido cuando luchaba con esa cosa. ",
+						"next_block" : 5
+					},
+					"2" : {
+						"text" : "Recogi la nota de un Hibrido muerto. Probe la contraseña de la nota y funciono. Asi es como llegue a aqui.",
+						"next_block" : 17
+					},
+					"3" : {
+						"text" : "¡¡¡Veamos quien es más rápido!!!",
+						"next_block" : 27
+					},
+				}
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¿¡¿Como se supone que debo saber si me dices la verdad?!?! Pudiste haber matado a mi marido y coger la nota de su frio cuerpo, ¡y ahora quieres matarme!",
+						"next_block" : 6
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Si quisiese matarte no estariamos teniendo esta conversación.",
+						"next_block" : 7
+					},
+					"2" : {
+						"text" : "¡Puedes bajar a ese maldito tunel y verlo por ti misma!",
+						"next_block" : 25
+					},
+					"3" : {
+						"text" : "No deberias fiarte de nadie en estos dias. Peron no tiene alternativa.",
+						"next_block" : 29
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : " Si... Supongo... Dime, ¿cres que aun sigue vivo? Quizas consigo escapar de esa criatura.",
+						"next_block" : 8
+					}
+				}
+			},
+			"8" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : ".... Me temo ... que el ya no... Habia mucha sangre. Lo siento.",
+						"next_block" : 9
+					},
+				    "2" : {
+						"text" : "El esta bien, eso creo...",
+						"next_block" : 20
+					}
+				}
+			},
+			"9" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Gracias por tu respuesta tan franca. Pareces ser una buena persona, ¿puedo pedirte un favor?",
+						"next_block" : 10
+					}
+				}
+			},
+			"10" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "No puedo prometerte nada, pero lo intentare.",
+						"next_block" : 11
+					},
+					"2" : {
+						"text" : "Estoy muy ocupado, quias más tarde.",
+						"next_block" : 22
+					}
+				}
+			},
+			"11" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Mi hermano tiene un gemelo llamado Sergei. Cuando Sergei fue infectado mi marido no pudo abandonarlo, pero tambien era impensable verlo pasar por esa abobinable transformacion...",
+						"next_block" : 112
+					}
+				}
+			},
+			"112" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Encontramos un garaje justo detras del supermercado en la calle Novator, la cual fue construida encima de los tuneles de alcatarillado. Mi marido hizo unagujero en el garaje para asi visitar a su hermano usando las alcantarillas. Bloqueamos las puertas y ventanas con bloques de cemento para que asi nadie pudiese hacerle daño. ...",
+						"next_block" : 113
+					}
+				}
+			},
+			"113" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "El solía ir todoas las semanas a dar de comer a su hermano. Pero ahora ... ahora que se ha ido, ¿cual es el punto? ... Podrias, ¿llevarle su última comida? Por favor ",
+						"next_block" : 12
+					}
+				}
+			},
+		    "12" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¿Quieres que alimente a ese mounstruo o simplemente lo mato?",
+						"next_block" : 13
+					},
+					"2" : {
+						"text" : "OK, puedo hacerlo. ¿Pero yo que gano?",
+						"next_block" : 23
+					},
+					"3" : {
+						"text" : "¿Te has vuelto loca? ¡No voy a arriesgar mi vida!",
+						"next_block" : 28
+					}
+				}
+			},
+			"13" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Supongo que no se te da bien leer entre lineas, ¿no? Bien lo digo. ¡SI! Quiero que lo mates, si lo hubiesemos hecho antes, Maxim no habria ... ¡muerto! ¡¡¡Mata a esa miserable cosa!!! Te lo ruego, ¡por favor!",
+						"next_block" : 14
+					}
+				}
+			},
+			"14" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Ok, Ok, ¡lo matare!",
+						"next_block" : 21
+					},
+				    "2" : {
+						"text" : "Tengo un monton de cosa que hacer.",
+						"next_block" : 22
+					}
+				}
+			},
+			"15" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Creo que estas buscando problemas! Vamos dimelo ya, ¡¿Como llegaste hasta aqui?! ¡La puerta en el tunel estaba cerrada! [ Ves una pistola en tu mano apuntandote] ",
+						"next_block" : 4
+					}
+				}
+			},
+		    "16" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : " ¡Lo hace para mi! ¡¡¡Quedate quieto y responde mis preguntas!!! [Una pistola te apunta] ",
+						"next_block" : 4
+					}
+				}
+			},
+			"17" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿La cogiste de un Hibrido muerto? ¿Habia alguien más, un hombre? Mi marido fue a los tuneles esta mañana y aun no ha vuelto. ¡El tenia la nota que encontraste!",
+						"next_block" : 18
+					}
+				}
+			},
+			"18" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "No he visto ha ningun hombre hay abajo, solo una piscina de sangre y Hibridos a su alrededor.",
+						"next_block" : 19
+					},
+				    //"1" : {
+						//"text" : "El debio encontrase con los Hibridos y lo cogieron. ",
+						//"next_block" : 19
+					//}
+				}
+			},
+		    "19" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Quizas esta herido y ...se escondio en algun sitio. ¿Que pasa si aun esta vivo?  ",
+						"next_block" : 8
+					}
+				}
+			},
+			"20" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : " No eres un buen mentiroso, pero supongo que me estas intentando hacer sentir bien. Lo aprecio. Lo se, eres la última persona a la que pediria un favor, pero no tengo a nadie más.",
+						"next_block" : 10
+					}
+				}
+			},
+		    "21" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Toma esto, aqui he escrito la contraseña. Cuando la mates, traeme su reloj de pulsera.",
+						"next_block" : 24,
+						"command_list" : [
+							"add_item 612011 1",
+							"start_quest 3",
+							"replace_dialog 11 111"
+						]
+					}
+				}
+			},
+			"22" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Hmmm. Algo me dice que volveras. ",
+						"next_block" : -1
+					}
+				}
+			},
+		    "23" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¿No quieres ayudar a una mujer que necesita ayuda?! Esta bien, vuelve cuando hayas acabado, tengo algo de valor para ti.",
+						"next_block" : 21
+					}
+				}
+			},
+			"24" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "OK, nos vemos. ",
+						"next_block" : -1
+					}
+				}
+			},
+			"25" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "No puedo ir alli. A parte no probaria nada. ¡Deberia matarte aqui mismo!",
+						"next_block" : 26
+					}
+				}
+			},
+			"26" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Estas cometiendo un gran error!",
+						"next_block" : -1
+					}
+				}
+			},
+			"27" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¡¡Muere!!!",
+						"next_block" : -1,
+						"command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"28" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Me tomo eso como un NO.",
+						"next_block" : -1
+					}
+				}
+			},
+			"29" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Siempre hay una opción! Puedo matarte aqui mismo y vengar a mi marido o puedo creer en tu historia. ¿Pero si escogo la última me harias un favor?",
+						"next_block" : 10
+					}
+				}
+			}
+		}	
+	},
+"111" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Enseñame el reloj, si de verdad lo mataste.",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Aun no lo tengo.",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "Si, ¡lo hice! ¡Aquí esta!",
+						"next_block" : -1,
+						"command_list" : [
+							"remove_item 610120 1",
+							"finish_objective 3#1#1 true",
+							"replace_dialog 111 112"
+						],
+						"checks_list" : [
+							"have_item 610120 1"
+						]					
+					}
+				}
+			 }
+		}
+    },			
+"112" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "No me puedo creer que ese bastardo este finalmente muerto. Te estoy tan agradecida, ¡Definitivamente te mereces una recompensa! Se como de solo y frio has de sentirte, vente te dare calor...",
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Un momento, ¿me estas pagando con sexo? He puesto mi vida en riesgo, estaba esperando algo... mas...tangible",
+						"next_block" : 3
+					},
+					"2" : {
+						"text" : "Lo siento, pero no eres mi tipo.",
+						"next_block" : 4
+					},
+					"3" : {
+						"text" : "He estado esperando por esto tantoooo tiempo.",
+						"next_block" : 5
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡¿¡¿Tangible?!?! Estas burladote de mi, te estoy ofreciendo la cosa mas valiosa que tengo en este mundo. Si no eres capaz de apreciarla...en ese caso te quedas sin nada. ¡No te quiero volver a ver! ",
+						"next_block" : -1,
+					    "command_list" : [
+							"replace_dialog 112 113"
+						]
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Oh... no te gustan las mujeres ... Nunca habria dicho que ....eres... no importa. Puedes quedarte en mi cabaña si quieres. Esta es la contraseña de la puerta. ",						
+						"next_block" : -1,
+						"command_list" : [
+							"add_item 612010 1",
+							"replace_dialog 112 114"
+						]
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ohhh... Ahhhhh....ohhhh!",						
+						"next_block" : 51
+					}
+				}
+			},
+			"51" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ohhh..  .... muerdeme....!",						
+						"next_block" : 52
+					}
+				}
+			},
+			"52" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "....Ahhhh... ¡ha sido increible!",						
+						"next_block" : 6
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿Quieres mas... ahora ?",						
+						"next_block" : 7
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "No, solo te estoy repasando.",						
+						"next_block" : -1,
+						"command_list" : [
+							"replace_dialog 112 115"
+						]
+					},
+					"2" : {
+						"text" : "Si, hagamoslo.",						
+						"next_block" : 5
+					}
+				}
+			}
+		}
+	},
+"113" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Quitate, ¡¡¡sucio!!!",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+"114" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Podria haber sido divertido... [suspiro]...",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+"115" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "... [suspiro]...",
+						"next_block" : -1
+					}
+				}
+			}
+		}
+	},
+"12" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "[El Hibrido te esta mirando sin atacarte]\n\n... Tu no eres mi hermano... ¡¡¿Donde esta Maxim?!!"
+						"next_block" : 2
+					}
+				}
+			},
+			"2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Espera! Pero que coño ... ¡¿puedes hablar?!",
+						"next_block" : 3
+					},
+					"2" : {
+						"text" : "Muere, ¡¡¡mounstruo!!!",
+						"next_block" : -1,
+					    "command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"3" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Si, puedo hablar y he preservado mi mente intacta. Detras de esta fachada de fealdad aun sigo siendo humano ... por lo menos me siento como uno.",
+						"next_block" : 4
+					}
+				}
+			},
+			"4" : {
+				"player_owner" : true,
+				"records" : {
+					"2" : {
+						"text" : "¿Que esta haciendo aqui?",
+						"next_block" : 5
+					},
+					"1" : {
+						"text" : "¿Pero como? ¿Como es posible?",
+						"next_block" : 20
+					}
+				}
+			},
+			"5" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Me estoy escondiendo! Como puedes ver los otros Hibridos pueden sentir que to soy ... diferente ... y los humanos, bueno para ellos soy un mounstruo. Estaria muerto antes de poder abrir mi boca. Tu casi apruebas esa teoria. Por favor, ¿Dime donde esta mi hermano?",
+						"next_block" : 6
+					}
+				}
+			},
+			"6" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Murio en los tuneles.",
+						"next_block" : 7
+					},
+					"2" : {
+						"text" : "Basta de hablar, Estoy aqui para matarte.",
+						"next_block" : -1,
+				        "command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"7" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Pobre Maxim, el siempre fue amable comçnmigo incluso despues de convertirme... ,como tu ya has dicho, en un mounstruo. Ya sabes, los gemelos tenemos una union que hace que nos preocupemos el uno por el otro, probablemente el podi sentir parte de mi dolor ... y comprender ... que se siente ... cuando uno cambia.  ",
+						"next_block" : 71
+					}
+				}
+			},
+			"71" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Su esposa Olga siempre ha estado celosa y muy fria conmigo, cuando me infecte ella finalmente tenia una buena oportunidad para librarse de mi.",
+						"next_block" : 72
+					}
+				}
+			},
+		    "72" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ella estaba furiosa cuando Maxim decidio hacerme un refugio ...  No recuerdo mucho de esos dias, la mayoria de ellos estaba inconsiciente ... pero cuando no lo estaba ellos estaban peleandose y discutiendo ... ",
+						"next_block" : 73
+					}
+				}
+			},
+		    "73" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Gracias a Dios, ella no convencio a mi hermano para que me matase, pero esto aruino su relación. Me siento culpable ... ",
+						"next_block" : 8
+					}
+				}
+			},
+			"8" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "No deberias, ¡ella me envio para que acabase contigo!",
+						"next_block" : 9
+					},
+					"2" : {
+						"text" : "¡Tienes razón! ¡todo es tu culpa, criatura! ¡Debes morir!",
+						"next_block" : -1,
+						"command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"9" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "No me sorprende. Ahora que mi hermano ha muerto ...",
+						"next_block" : 10
+					}
+				}
+			},
+			"10" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¿Por que no le gustas? ",
+						"next_block" : 11
+					},
+					"2" : {
+						"text" : "No te procupes, ¡lo veras muy pronto!",
+						"next_block" : -1,
+						"command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"11" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿De verdad te interesa? OK, no es una hisotira muy larga. Estabamos saliendo, ¡pero yo conoci a otra chica! Despues ella empezo a salir con mi hermano, supongo que para hacerme daño … ella no podia perdonarme",
+						"next_block" : 12
+					}
+				}
+			},
+		    "12" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¡Un corazón roto se cura con el tiempo!",
+						"next_block" : 25
+					},
+					"2" : {
+						"text" : "Acabas de salvarte la vida.",
+						"next_block" : 15
+					},
+					"3" : {
+						"text" : "Que historia tan entretenida, pero no tengo tiempo para esta mierda.",
+						"next_block" : 13
+					}
+				}
+			},
+			"13" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Si tiene razón... ... vas a... vas a... ¿vas a matarme ahora?",
+						"next_block" : 14
+					}
+				}
+			},
+			"14" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "No quiero acabar con esto asi, pero necesito tu reloj para demostrarle que he hecho mi trabajo.",
+						"next_block" : 17
+					},
+				    "2" : {
+						"text" : "Si, ¡sere rápido!",
+						"next_block" : -1,
+						"command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"15" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Si quisiese engañarte vendrria con algo mejor que esto. ¡trabaja!",
+						"next_block" : 16
+					}
+				}
+			},
+		    "16" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Olvidalo ... se te ve inofensivo, no hagas que me arrepienta de esta decisión. ",
+						"next_block" : 26
+					}
+				}
+			},
+			"17" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Este reloj es todo lo que me queda de mi hermanao, fue un regalo, lo siento pero no puedo dartelo.",
+						"next_block" : 18
+					}
+				}
+			},
+			"18" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Me parece bien quedatelo. Tengo que irme.",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "No me dejas otra opción, tengo que matarte.",
+						"next_block" : -1,
+						"command_list" : [
+							"set_player_enemy"
+						]
+					},
+				}
+			},
+			"20" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Ojala supiese como ... tengo mas preguntas que respuestas. Supongo que mi cerebro no fue infectado o tengo resitencia ... No soy un científico ...",
+						"next_block" : 21
+					}
+				}
+			},
+		    "21" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "¿Podría haber más ... cosas ... como tu?",
+						"next_block" : 22
+					},
+				    "2" : {
+						"text" : "Esto es alguna clase de truco, no es asi, ¡No me creo esta mierda! ¡Tu moriras!",
+						"next_block" : -1,
+						"command_list" : [
+							"set_player_enemy"
+						]
+					}
+				}
+			},
+			"22" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Quizas ... quizas,.. soy el único",
+						"next_block" : 23
+					}
+				}
+			},
+		    "23" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Si encuentro a alguien que te pueda ayudar, lo traere a solas. Hasta entonces, intenta que no te maten.",
+						"next_block" : 24
+					}
+				}
+			},
+			"24" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Hare lo que pueda... gracias ...",
+						"next_block" : -1
+					}
+				}
+			},
+			"25" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Aveces dudo, si ella es... da igual  no es por lo que has venido aqui. Vamos, acaba con lo que tienes que hacer...",
+						"next_block" : 16
+					}
+				}
+			},
+			"26" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¡Te estoy en deuda! ¡Cuidate!",
+						"next_block" : -1
+					}
+				}
+			}
+		}	
+	},
+	"13" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "Encuentra las piezas para arreglar el Explorer.\n\n Radiador\n\n Caja de cambios\n\n Cabeza del cilindro",
+						"next_block" : 2
+					}
+				}
+			},
+		   "2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "[Irse]",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "Finalmente tengo todo lo necesario para seguir con mi aventura...",
+						"next_block" : -1,
+						"command_list" : [
+						    "finish_objective 2#1#1 true",
+							"replace_dialog 13 131",
+							"remove_item 610115 1",
+							"remove_item 610116 1",
+							"remove_item 610117 1"
+						],
+						"checks_list" : [
+							"have_item 610115 1",
+							"have_item 610117 1",
+							"have_item 610116 1"
+						]	
+					}
+				}
+			}
+		}
+	},
+    "131" : {
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"player_owner" : false,
+				"records" : {
+					"1" : {
+						"text" : "¿Listo para irse?",
+						"next_block" : 2
+					}
+				}
+			},
+		   "2" : {
+				"player_owner" : true,
+				"records" : {
+					"1" : {
+						"text" : "Aun no",
+						"next_block" : -1
+					},
+					"2" : {
+						"text" : "¡Joder, si!",
+						"next_block" : -1
+					},
+				}
+			}
+		}
+	},
+   
+}
+

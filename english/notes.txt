@@ -1,0 +1,53 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Notes info database */
+ {
+	"1" : {
+		"name" : "Note Of A Nameless",
+		"text" : "If you are holding this paper, well, this means I have finally found my peace. I am not asking you to do anything for me, because it is pointless, they will never let us out.  I lost all reasons to live, but , maybe, you did not. I locked up some supplies in Molniya machines, I hope it will help you to survive for a while. Sincerely yours M.  14/45. ",
+		"dev_comment" : ""
+	},
+	"2" : {
+		"name" : "Survivor's note",
+		"text" : "Today, I killed and ate a man. I was so hungry, so much hunger.... Those bastards did not let me stay in their camp. They left me to die, to die from the cold and starvation. It is their fault, not mine...  I have come across enough food for maybe a few days, I might make it to the Nemostor's base.",
+		"dev_comment" : ""
+	},
+	"3" : {
+		"name" : "Survivor's note",
+		"text" : "A City without money, Everything is free. Those Damn communists. I did like it, but what have we got now! Trading matches for food.",
+		"dev_comment" : ""
+	},
+	"4" : {
+		"name" : "Page of Valya's diary",
+		"text" : "I told mommy that I'm a grown person, and can walk to school by myself. She wasn't happy and told me to speak with daddy. Daddy should let me, he always does. I've got the best daddy in the world!!!!",
+		"dev_comment" : ""
+	},
+	"5" : {
+		"name" : "Page of Valya's diary",
+		"text" : "When I finish school, I'll become a doctor just like my daddy. I will help people and cats. Cats are cute.",
+		"dev_comment" : ""
+	},
+	"6" : {
+		"name" : "Page of Valya's diary",
+		"text" : "Mommy says, daddy will come back home once he gets better. Why she doesn't let me visit him? I miss him very much, how she doesn't understand??? Perhaps, she doesn't miss him as much as I do. Sometimes I hate her…",
+		"dev_comment" : ""
+	},
+	"7" : {
+		"name" : "Page of Valya's diary",
+		"text" : "They came and took mommy, she was very sick. They would have taken me as well, but I hid in the closet. I'm all alone now, wish I never called to the hospital.",
+		"dev_comment" : ""
+	},
+	"8" : {
+		"name" : "Page of Valya's diary",
+		"text" : "It's getting colder and colder every day, the hitting isn't working. I put two daddy's sweaters on and curled under the big blanket. I want mommy and daddy back home, but what if they won't come back. Was I a bad daughter?. I'm sorry! Please, please, please come back!",
+		"dev_comment" : ""
+	},
+}

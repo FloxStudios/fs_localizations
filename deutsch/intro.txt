@@ -1,0 +1,42 @@
+{
+	"1" : {
+		"timer" : 15.0,
+		"text" : "Der erste "Gesandte" wurde vor fast achtzig Jahren von einem sowjetischen Geologie-Expeditionsteam in der Wildnis Sibiriens entdeckt. Zwanzig Jahre später wurde ein ähnliches Objekt auf dem Grund des pazifischen Ozeans entdeckt. Es war schnell klar, dass die Objekte schon sehr viel früher hier waren."
+	},
+
+	"2" : {
+		"timer" : 15.0,
+		"text" : "Diese Entdeckungen öffneten unsere Augen und ließen uns verstehen wie unbedeutend wir Menschen eigentlich sind.  Um unsere unersättliche Neugier zu befriedigen, stürzten wir uns, wie ignorante Kinder, in unzählige Experimente. Viele davon waren grausam und menschenunwürdig. Man könnte sagen, sie waren nicht mal annähernd legal."
+	},
+
+	"3" : {
+		"timer" : 17.0,
+		"text" : "Nach all den Jahren ist es immer noch schier unmöglich zu sagen, welcher der Artefakte für das Erscheinen der ersten Lazarus Säule verantwortlich ist. Was wir aber auf jeden Fall wissen, ist, dass die ersten Gerüchte über eine neue Krankheit und das auftauchen seltsamer Kreaturen aus einer kleinen Bergarbeitersiedlung bei Chagan in Kazachstan auftauchten."
+	},
+
+	"4" : {
+		"timer" : 15.0,
+		"text" : "Irgendwie verändern die Lazarus Säulen die DNA lebendiger Organismen und sie werden zu abscheulichen Kreaturen mit unersättlichem Hunger nach Fleisch. Jedes Opfer, dass die "Mutierten"  verschlangen, machte sie zu noch stärkeren, unaufhaltsameren Kreaturen oder einfach gesagt zu Hybriden: Halb Mensch, halb Grauen."
+	},
+
+	"5" : {
+		"timer" : 13.0,
+		"text" : "Trotz all der ermüdenden Versuche, die berüchtigten Säulen zu zerstören, konnten wir doch etwas sehr wichtiges herausfinden. Es hat den Anschein, dass bei niedrigen Temperaturen der Stoffwechsel viel langsamer verläuft und die Mutationen  nicht so drastisch bzw. weniger gefährlich ausfallen. Mit anderen Worten: Sie fielen in eine Art Winterschlaf, oder wie wir es später nennen in einen "Frozen State"."
+	},
+
+	"6" : {
+		"timer" : 20.0,
+		"text" : "Dieser kleine Hinweis war der Durchbruch und wurde schon bald ausschlaggebend für den ersten internationalen Gegenschlag: „Weiße Nacht“, ein weltweites Wetterkontrollsystem. Eine Reihe von Satelliten, die um die  Erde kreisen wurden dazu benutzt, eine spezielle Chemikalie in die Stratosphäre zu sprühen, um eine dünne, reflektierende Schicht zu erzeugen. Der Plan war, die von der Sonne erzeugte Hitze zu reduzieren und eine kontrollierte Eiszeit zu erschaffen. Es funktionierte."
+	},
+
+	"7" : {
+		"timer" : 8.0,
+		"text" : "Am Anfang lief alles nach Plan. Die Temperatur fiel und die Hybriden wurden schwächer. Wir konnten in kurzer Zeit isolierte Siedlungen retten und wiederaufbauen und die nicht infizierten Menschen zusammenführen."
+	},
+
+
+	"8" : {
+		"timer" : 15.0,
+		"text" : "Aber die Zeit verging schnell und wir hatten noch keinen Weg gefunden die Säulen zu zerstören. Essensvorräte und Arzneimittel wurden immer knapper und man konnte die wachsende Bevölkerung nicht mehr genügend versorgen. Aufstände brachen aus. Doch trotz Einschränkungen und Gegenmaßnahmen flohen viele Zivilsten und suchten nach einer besseren Zukunft."
+	}
+}

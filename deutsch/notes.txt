@@ -1,0 +1,53 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Notes info database */
+ {
+	"1" : {
+		"name" : "Brief eines Unbekannten",
+		"text" : "Wenn du diesen Brief findest, bedeutet es, dass ich endlich meinen Frieden gefunden habe. Ich bitte dich nicht um einen Gefallen. Es wäre sinnlos, weil sie uns niemals raus lassen werden.  Vielleicht hast du noch Gründe weiterzuleben, ich habe keine mehr. Ich habe ein paar Versorgungsgüter im Molniya-Automaten eingeschlossen und hoffe, dass sie dir helfen für eine Weile zu überleben. In Liebe M.  14/45. ",
+		"dev_comment" : ""
+	},
+	"2" : {
+		"name" : "Notiz eines Überlebenden",
+		"text" : "Heute tötete ich einen Mann und aß ihn. Ich war hungrig, so verdammt hungrig.... Diese Bastarde ließen mich nicht in ihr Lager. Sie überließen mich der Kälte, dem Hunger und dem Tod. Es ist ihre Schuld, nicht meine... Ich habe genug Proviant um ein paar Tage zu überleben und vielleicht schaffe ich es bis zur Nemostorbasis.",
+		"dev_comment" : ""
+	},
+	"3" : {
+		"name" : "Notiz eines Überlebenden",
+		"text" : "Eine Stadt ohne Geld. Alles war kostenlos. Diese verfluchten Kommunisten. Es war schön, am Anfang. Aber was haben wir nun? Wir tauschen Streichhölzer gegen Nahrung.",
+		"dev_comment" : ""
+	},
+	"4" : {
+		"name" : "Eine Seite von Valyas Tagebuch",
+		"text" : "Ich habe meiner Mami gesagt, dass ich schon groß bin und alleine in die Schule gehen kann. Sie war nicht glücklich darüber und sagte, ich soll Papi fragen. Papi wird mich gehen lassen. Er erlaubt mir alles. Ich habe den tollsten Papi der ganzen Welt!!!!",
+		"dev_comment" : ""
+	},
+	"5" : {
+		"name" : "Eine Seite von Valyas Tagebuch",
+		"text" : "Wenn ich mit der Schule fertig bin werde ich eine Ärztin, genau wie mein Papi. Ich werde Menschen und Katzen helfen. Katzen sind süß.",
+		"dev_comment" : ""
+	},
+	"6" : {
+		"name" : "Eine Seite von Valyas Tagebuch",
+		"text" : "Mama hat gesagt, wenn es Papi besser geht, wird er nach Hause kommen. Wieso darf ich Papi nicht besuchen? Ich vermisse ihn so sehr, doch sie versteht es nicht. Vielleicht vermisst sie ihn nicht so sehr wie ich. Manchmal hasse ich sie.",
+		"dev_comment" : ""
+	},
+	"7" : {
+		"name" : "Eine Seite von Valyas Tagebuch",
+		"text" : "Sie kamen zu uns und haben Mami mitgenommen, weil sie sehr krank war. Sie hätten mich auch mitgenommen, aber ich habe mich im Schrank versteckt. Jetzt bin ich ganz alleine. Ich wünschte ich hätte das Krankenhaus nie angerufen.",
+		"dev_comment" : ""
+	},
+	"8" : {
+		"name" : "Eine Seite von Valyas Tagebuch",
+		"text" : "Es wird jeden Tag kälter und die Heizung ist kaputt. Ich hab zwei von Papis Pullovern an und hab' mich unter die große Decke verkrochen. Ich will, dass Mami und Papi wieder nach Hause kommen. Aber was ist, wenn sie nicht wiederkommen. Bin ich keine gute Tochter? Bitte, bitte, bitte kommt zurück!",
+		"dev_comment" : ""
+	},
+}

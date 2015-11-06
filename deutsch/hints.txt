@@ -1,0 +1,49 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/*
+*<fs_hint_tag></fs_hint_tag>
+*<fs_tex_tag>manual/hints_textures/</fs_tex_tag>
+*/
+
+/* Hints database  */
+{
+	"LOOT" : "<fs_hint_tag>LOOT_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/loot</fs_tex_tag><fs_hint_tag>LOOT_2</fs_hint_tag>",
+	"LOOT_NAME" : "Beute",
+	"LOOT_1" : "Sammelbare Gegenstände werden \"blau\" markiert. Du musst nahe genug an dem Objekt sein, um es durchsuchen zu können.",
+	"LOOT_2" : "Du kannst Gegenstände einzeln in dein Inventar legen oder gleich alles aufsammeln indem du den \"Alles nehmen\" Knopf drückst. Das Gleiche klappt auch mit dem Ablegen von Gegenständen. Um das \"Beute\"-Fenster zu schließen drücke E, bewege dich vom Objekt weg oder klicke auf \"Exit\".",
+	"DOORS" : "<fs_hint_tag>DOORS_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_latch</fs_tex_tag><fs_hint_tag>DOORS_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_key</fs_tex_tag><fs_hint_tag>DOORS_3</fs_hint_tag><fs_tex_tag>manual/hints_textures/doors_code</fs_tex_tag><fs_hint_tag>DOORS_4</fs_hint_tag>",
+	"DOORS_NAME" : "Türen",
+	"DOORS_1" : "Alle anwählbaren Türen werden \"grün\" markiert. Man öffnet/schließt eine unverschlossene Tür einfach durch das drücken der \"E\" Taste.\n Manchmal können Türen verschlossen sein und um sich Zugang zu verschaffen, drücke und halte \"E\".\Es gibt fünf Arten von Schlössern im Spiel:\n\n1) Verriegelung - Einfach auf die rechte Seite ziehen, um die Tür zu entriegeln.",
+	"DOORS_2" : "2) Mechanisches Schloss - Diese Art Schloss zu öffnen bedarf eines Schlüssels oder eines Dietrichs. Die Verriegelungen haben verschiedene Stufen und benötigen in manchen Fällen eine höhere Fähigkeit in \"Schlösser öffnen\".",
+	"DOORS_3" : "3) Elektronisches Schloss - Ist im Grunde genauso so wie das mechanische Schloss, benötigt aber elektronischen Strom um zu funktionieren. \n4) Passwortgeschützt - Solche Art Schlösser sind sehr komplex. Um sie zu öffnen muss man entweder die richtige Kombination (z.B. Zahlen ) eingeben oder man benötigt eine hohe Fähigkeit in \"Schlösser öffnen\".",
+	"DOORS_4" : "5) Kaputtes Schloss - Das Schloss ist defekt und du kannst nichts mehr tun. Versuche einen anderen Weg reinzufinden.\n\n[i]Tipp \"Holztüren können auch mit Gewalt geöffnet werden, in dem man sie zerstört. Aber Vorsicht! Der Lärm könnte Feinde anlocken.\"[/i]",
+	"REST" : "<fs_hint_tag>REST_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/rest_bed</fs_tex_tag><fs_hint_tag>REST_2</fs_hint_tag>",
+	"REST_NAME" : "Rasten",
+	"REST_1" : "Dein Charakter kann auf Bettmatratzen oder [i][b]in leeren[/b][/i] Badewannen schlafen, aber sei dir Gewiss, dass du einen sicheren Rastplatz gewählt hast. Feinde könnten dich angreifen, während du schläfst.",
+	"REST_2" : "Wenn du schläfst, regeneriert dein Charakter Gesundheit  - 10 Gesundheitspunkte pro Stunde.\n[i]Tipp \"Die Negativ-Wirkungen wie \"Kälte\" oder \"Hunger\" bleiben auch im Schlaf erhalten\"[/i]\n\nIst dein Charakter schwer verwundet oder verliert Gesundheitspunkte, wird er nicht in der Lage sein zu schlafen bis er sich genug geheilt hat.",
+	"CAMPFIRE" : "<fs_hint_tag>CAMPFIRE_1</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_setup</fs_tex_tag><fs_hint_tag>CAMPFIRE_2</fs_hint_tag><fs_tex_tag>manual/hints_textures/campfire_panel</fs_tex_tag><fs_hint_tag>CAMPFIRE_3</fs_hint_tag>",
+	"CAMPFIRE_NAME" : "Lagerfeuer",
+	"CAMPFIRE_1" : "Das Lagerfeuer ist die einfachste und zugänglichste Wärmequelle. Um ein Lagerfeuer herzustellen brauchst du: Trockenes Holz, Papier und Streichhölzer.\n\nDrücke auf das Lagerfeuer mit der \"rechten Maustaste\" und wähle \"Benutzen\". Ein blauer Schatten des Lagerfeuers erscheint. Klicke die \"linke Maustaste\" um es auf den gewünschten Platz zu setzen oder drücke \"Q\" um den Vorgang abzubrechen. Man kann das Lagerfeuer auch in einem Ausrüstungs-Slot ausrüsten, um es schneller benutzen zu können. In dem Fall brauch man das LUCH-12 nicht zu öffnen. Einfach \"Q\" drücken und der blaue Schatten des Lagerfeuers erscheint, dann \"E\" drücken um zu bestätigen.",
+	"CAMPFIRE_2" : "Die Dauer des Feuers ist begrenzt, kann aber durch erneutes drauflegen von Holz verlängert werden, solange das Feuer brennt. Klicke auf den Knopf mit dem Holz-Icon, oben an der linken Ecke des Bildschirms, um mehr Holz draufzulegen.",
+	"CAMPFIRE_3" : "Rohe Zutaten, die in ihrem derzeitigen Zustand nicht essbar sind, können am Lagerfeuer gekocht werden. Die Zutat, die du kochen möchtest/kannst einfach auf den \"Roh\" Slot ziehen und ablegen.",
+    
+    //Event hints
+    "WELCOME_NAME" : "Willkommen in Duga 40",
+    "WELCOME" : "Dieses verlassene Gebäude wird zeitweilig dein zu  Hause. Du hast alles daran gesetzt, um es gegen Hybriden und andere unwillkommenen Gäste zu befestigen. Doch deine Vorräte gehen zur Neige und du musst in die Stadt, um sie aufzufrischen. Beginnen wir zuerst mit deinen Taschen, betätige \"Tab\" um das\"LUCH-12\" zu aktivieren.\n\nWenn du genug Ressourcen beisammen hast, stelle ein paar \"Lagerfeuer\" her. Du wirst sie bald brauchen.\n\nVergiss nicht etwas Kleidung anzuziehen. Die Kälte da draußen kann dich schnell umbringen.\n\nBevor du dein Haus verlässt, schau auf das Benutzerhandbuch, das auf dein LUCH-12 installiert wurde. Es erklärt dir alle Grundlagen, die du für das Überleben brauchst.\n\nIm Spiel öffnen sich manchmal Fenster mit Hinweisen und nützlichen Tipps. Drücke das Icon mit dem Fragezeichen, um einen Hinweis zu erhalten.\n\nDu kannst die Funktion bei Einstellungen abschalten.",
+    "DOORS1_NAME" : "Türen",
+    "DOORS1" : "Ein passwortgeschütztes Schloss ist ein guter Schutz vor Diebstahl. Manche Leute hinterlassen Notizen mit vergessen Passwörtern. Einige Hinweise sind schneller zu finden als andere. Schau dich überall um, vielleicht hast du Glück.\n\nEgal wie stark ein Türschloss sein kann, wenn es an einer Holztür montiert ist, lässt sich die Tür ganz leicht mit einer Axt \"bearbeiten\".",
+    "SLEEP_NAME" : "Schlafen",
+    "SLEEP" : "Die Temperaturen sind in der Nacht unberechenbar. Sie können in einem Augenblick tief fallen, sodass schon manche Menschen im Schlaf erfroren.\n\nSuche nach einem verlassenen Haus oder einem Raum ohne zerbrochene Fenster, das schützt dich etwas vor der Kälte. Lege ein Lagerfeuer ganz in der Nähe deines Schlafplatzes und versuche zu rasten.\n\nSchlafe nicht zu lang'!",
+    "ZONES_NAME" : "Zonen",
+    "ZONES" : "Du kannst von einem Ort zu einem anderen reisen, indem du auf eine Übergangszone läufst (grüne diagonale Linien auf dem Boden).",
+    "FIRE_NAME" : "Lagerfeuer",
+    "FIRE" : "Versuche ein Feuer zu machen. Es ist sehr wichtig zu verstehen wie es geht.\n\nEs gibt zwei Wege um ein Lagerfeuer zu legen.\n\nDer erste Weg - Betätige \"Tab\" um das LUCH-12 zu aktivieren, dann suche in deinem Inventar den Gegenstand der sich \"Lagerfeuer\" nennt und klicke mit der \"rechten Maustaste\" darauf. Wähle \"Benutzen\" und du siehst einen blauen, halbtransparenten Schatten des Lagerfeuers, drücke \"E\" um es auf den gewünschten Platz zu setzen. Drücke \"Q\" um abzubrechen und der blaue Schatten verschwindet.\n\nDer zweite Weg - Rüste dein \"Lagerfeuer\"-Gegenstand aus in dem du es in die  \"Schnellauswahl für Gegenstände\" Slots steckst. Das Lagerfeuer-Icon erscheint in der unteren rechten Ecke des Bildschirms. Wenn du das Lagerfeuer setzen möchtest drücke \"Q\" und der blaue Schatten des Lagerfeuers erscheint. Drücke \"E\" um zu bestätigen, drücke \"Q\" um abzubrechen.\n\nFür mehr Informationen solltest du das Benutzerhandbuch lesen, welches auf dem LUCH12 zu finden ist.",
+}

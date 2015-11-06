@@ -1,0 +1,120 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+ 
+/* Quests info database */
+
+{
+	"1" : {
+		"name" : "Mehr Schokolade!!!",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Bring die Schokoladenriegel zu dem hungrigen... Automaten???",
+				"success_text" : "Du hast die ganzen Schokoladenriegel zu dem Automaten gebracht und darfst eine behalten ;)",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"Los! Bring die Schokolade her! Schoki-Schoki-Schoookiiii!!!!!!"
+					}
+				}
+			}
+		},
+		"success_commands" : [ "replace_dialog 4 2" ],
+		"fail_commands" : []
+	},
+	"2" : {
+		"name" : "Setze deine Reise fort",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Der Schaden am Explorer ist schlimmer als ich dachte. Ich kann ihn nicht einfach so zusammenflicken. Wenn ich nicht die nötigen Ersatzteile finde werde ich niemals den "Widerstand" erreichen. \n\n Kühler \n\n Getriebe \n\n Zylinderkopf",
+				"success_text" : "Ich habe die Ersatzteile gefunden. Endlich kann ich diesen gottlosen Ort verlassen.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : " Finde die Ersatzteile um den Explorer zu reparieren. \n\n Kühler \n\n Getriebe \n\n Zylinderkopf"
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+		"3" : {
+		"name" : "Böser Zwilling",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Maxims Bruder ist in der Garage, hinter dem Lebensmittelgeschäft, auf der Novator Straße eingesperrt. Töte ihn und bring Olga seine Armbanduhr.",
+				"success_text" : "Du hast Olga geholfen ihren Mann zu rächen.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : " Töte Maxims Bruder."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+	    "4" : {
+		"name" : "Verlorene Kinder",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Es war nicht schwer, das Gestammel des alten Mannes zu entschlüsseln. Er glaubt, diese Plastikpuppen seien seine Kinder und anscheinend hat er welche verloren.\n\n Es sollte nicht allzu schwer sein ein paar Puppen zu finden. Sicher wird er sich dann besser fühlen.",
+				"success_text" : "Die Familie ist wiedervereint.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Finde zwei Plastikpuppen für den alten Mann."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+		"5" : {
+		"name" : "Streuner",
+		"start_block_id" : 1,
+		"blocks" : {
+			"1" : {
+				"is_main" : true,
+				"description" : "Das mürrische Kind in der Hütte macht sich Sorgen um seinen Hund Finik, der vor ein paar Tagen abgehauen und noch nicht zurückgekommen ist.",
+				"success_text" : "Ruhe in Frieden geliebter Freund.",
+				"next_block" : 0,
+				"secondary_block" : 0,
+				"objectives" : {
+					"1" : {
+						"type" : 2,
+						"is_main" : true,
+						"description" : "Finde jeden Hinweis über den Hund Finik."
+					}
+				}
+			}
+		},
+		"fail_commands" : []
+	},
+}

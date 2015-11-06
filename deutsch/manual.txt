@@ -1,0 +1,65 @@
+/*
+* Copyright (c) 2012-2014 SnowArcStudio
+* All rights reserved.
+*
+* Redistribution and use in source form are prohibited.
+* Redistribution and use in binary form are permitted in agreement with copyright holders.
+*
+* http://www.snowarcstudio.com
+*/
+
+/* Manuals info database  */
+{
+    "intro" : {
+        "name" : "EINFÜHRUNG",
+        "text" : "Sei gegrüßt und Willkommen beim unglaublichen\"LUCH-12\". In diesem Benutzerhandbuch werde ich dich durch die Neuerungen der 12. Version, die eine lange Reihe erfolgreicher und bahnbrechender Interfaces beinhaltet, begleiten.\n\nDas\"LUCH -12\"ist ein einfach zu bedienender, tragbarer Minicomputer mit Gesundheitsanzeige, der von zwei herausragenden Wissenschaftlern, Dr. Ken Takayanagi und Prof. Iliya Zworykin in KB.SVET entwickelt wurde.\n\nIn der 12. Version haben wir umfassende Verbesserungen vorgenommen die eine höhere Auflösung, 20% schnellere Informationsverarbeitung und Multitaskingfunkionen enthalten.\n\nAlle wichtigen Informationen sind hier in deinem \â€œLUCH-12\â€ abgespeichert und jederzeit abrufbar. Bitte lies das Benutzerhandbuch sorgfältig durch, denn deine Sicherheit und dein Leben hängen davon ab.\n\nZusätzliche Informationen über die Stadt, Orte und die Leute können von den\"EUREKA\" Terminals abgerufen werden. Wenn du neu in der Stadt bist, vergiss nicht, dir einen Reiseplan vom nächsten Terminal auf dein \â€œLUCH-12\â€ runterzuladen.\n\nDanke für das Vertrauen in LUCH -12\n\n\nK.B. SVET",
+        "topics" : {}
+    },
+    "controls" : {
+        "name" : "STEUERUNG",
+        "text" : "Dieser Abschnitt enthält einen Überblick der wichtigsten Spielabläufe, Steuerungen, Luch-12 Funktionen und weitere Informationen.",
+        "topics" : {
+            "basics" : {
+                "name" : "Grundlagen",
+                "text" : "\"W,A,S,D\" und Maus - um deinen Charakter zu navigieren.\n\n\"Linke Maustaste\" - angreifen.\n\n\"R\" - nachladen.\n\n\"1, 2, 3\" - wechseln der ausgerüsteten Waffen. \"1\" - ist immer unbewaffnet. In manchen Fällen werden die NPCs nicht mit dir reden, solange du eine Waffe hälst oder werden dich als Bedrohung sehen und dich angreifen.\n\n\"4, 5\" -  Wechseln zwischen zusätzlichen, ausgerüsteten Gegenständen.\n\n\"Rechte Maustaste\" - dreht die Kamera.\n\n\"Mausrad\" - Bewegt die Kamera rauf und runter, man ist auch damit in der Lage weiter zu sehen.\n\n\"E\" - lässt dich mit Objekten interagieren. Manchmal musst du \"E\" länger gedrückt halten um weitere Funktionen des Objekts auszuführen (z.B. kochen, Türen öffnen). Alle anwählbaren Objekte sind mit unterschiedlichen Farben markiert: Orange - Versteck, blau -  sammelbare Gegenstände, grün - Türen und Portale, gelb - Rastplätze, rot - Feinde.\n\n\"C\" - konzentriert sich auf das Gehör deines Charakters. Durch "Hören" werden versteckte, im dunkeln lauernde Feinde und deren Sichtweite wahrgenommen. Während "Hören" aktiviert ist kannst du nicht rennen.\n\n\"Leertaste\" - kriechen bzw. schleichen.\n\n\"Feststelltaste\" - Wechselt zwischen Gehen und Rennen.\n\n\"Tabulator\" - Aktiviert/Deaktiviert das LUCH-12. Der rote Knopf an der oberen rechten Ecke schaltet das LUCH-12 ebenfalls aus.\n\n\"Q\" - benutzen/konsumiereno/setzen eines ausgewählten Gegenstands. Ein Gegenstand der "gesetzt" werden kann erscheint als blauer, halbtransparenter Schatten (z.B. Ein Lagerfeuer wird als blauer, halbtransparenter Haufen Holz angezeigt). Wenn du ein geeigneten Platz gefunden hast, drücke \"E\", um es zu setzen. Drücke \"Q\" wenn du den Vorgang abbrechen willst.\n\n\"F\"- schaltet die Taschenlampe ein/aus. Die Taschenlampe muss ein einem Ausrüstungs-Slot ausgerüstet werden. Halte \"F\" gedrückt, um eine Batterie der Taschenlampe auszutauschen ohne das LUCH-12 zu aktivieren. In der Inventaranzeige des LUCH-12 kannst du das ebenfalls tun.",
+                "topics" : {}
+            },
+            "luch" : {
+                "name" : "LUCH-12",
+                "text" : "[b]Inventar[/b] - zeigt die Gegenstände, die dein Charakter mit sich führt. Er kann sie ablegen, benutzen und/oder konsumieren, indem du den gewünschten Gegenstand anwählst und die rechte Maustaste drückst.\n\n[b]Fähigkeiten[/b] - zeigt Informationen über die Eigenschaften, Fähigkeiten und Statistiken deines Charakters an. Im Spiel kannst du deine Fähigkeiten durch das Konsumieren einer spezielle Droge namens \"Antrazidol\" verbessern. \n\n[b]Karte[/b] - LUCH-12 hat eine Karte von der Stadt und Umgebung. Mit dem Stadtplan kannst du dich ungehindert zwischen zwei Orten bewegen. \n\n[b]Info[/b] - Info – Zeigt dir den körperlichen Zustand und deine Rüstungsgegenstände an. Um dich auszurüsten öffne einfach das Inventar und  ziehe den ausgewählten Gegenstand zu der dazugehörigen Slot in der Infospalte.\n\n[i]Rüstung[/i] - Dein Charakter kann zwei Rüstungsgegenstände gleichzeitig ausrüsten: Kopf und Rumpf.\n\n[i]Waffe[/i] - es sind zwei Waffenslots verfügbar. Leere Flaschen, Dosen, Ziegelsteine und Steine werden auch als Waffen behandelt, obwohl einige von ihnen keinen Schaden anrichten.\n\n[i]Zusatzgegenstände[/i] - zwei andere Slots können mit Gegenständen belegt werden: Essen, Getränke, Lagerfeuer, Radio, etc.. Du kannst fast alles ausrüsten was du schnell zur Verfügung haben willst ( Außer Waffen und Rüstungen).\n\n[i]Geräte[/i] - diese Slots sind für verschiedene Geräte die dein Leben erleichtern (z.B. kann hier eine Taschenlampe hinzugefügt werden, wenn man sie gebrauchen möchte, vergiss aber nicht die Batterien zu wechseln).\n\n[b]Handwerk[/b] - hier kannst du neue Gegenstände herstellen oder reparieren. Nähere Informationen erhälst du im Bereich \"Handwerk\"\n\n[b]Tagebuch[/b] - bewahrt alle wichtigen Notizen, Aufgaben sowie Informationen über Leute und Orte auf.\n\n[b]Benutzerhandbuch[/b] -  dieser Abschnitt beinhaltet Informationen über das Spiel und seinen Ablauf. Wenn du nicht weiterkommst, wirf einfach einen kurzen Blick in das Handbuch.",
+                "topics" : {}
+            },
+            "campfire_cooking" : {
+                "name" : "Lagerfeuer und Kochen",
+                "text" : "Das Lagerfeuer ist die einfachste und zugänglichste Wärmequelle. Um deinen Körper wieder auf Normaltemperatur zu bringen stell dich einfach nah genug ans Lagerfeuer. Je weiter du wegstehst, desto weniger wärmt es dich auf.\n\nDie Dauer des Feuers ist begrenzt, kann aber durch erneutes drauflegen von Holz verlängert werden, solange das Feuer brennt.\n\nRohe Zutaten, die in ihrem derzeitigen Zustand nicht essbar sind, können am Lagerfeuer gekocht werden. Gekochtes Essen hat sättigt mehr und erhöt die Körpertemperatur. Essensrezepte sind im LUCH-12 unter "Handwerk" zu finden.",
+                "topics" : {}
+            },
+            "character" : {
+                "name" : "Charakter",
+                "text" : "Dein Charakter ist ein lebendes, menschliches Wesen, zumindest bis jetzt noch. Wie alle menschlichen Wesen hat er/sie Grundbedürfnisse: Nahrung, Wasser, Schutz und dergleichen. Die Schwerpunkte dieser Bedürfnisse unterscheiden sich von Person zu Person; manche sind kleiner und geschickter und braucht weniger Vorräte, während andere stärker und größer sind und deshalb mehr Ressourcen brauchen, um zu überleben.\n\nEssen und Getränke können im Inventar, durch das drücken der rechten Maustaste, kosumiert werden, oder man drückt \"Q\" , wenn der Gegenstand im Gegenstandsslot ausgerüstet wurde.\n\nDie Vitalanzeige deines Charakters findest du im LUCH-12 unter INFO.  Behalte diese im Auge, oder du überlebst wohlmöglich deine nächste feindliche Begegnung nicht mehr.\n\nKälte ist eine ständige Bedrohung, dem dein Charakter ausgesetzt ist. Gedämmte Kleidung, alkoholische Getränke, warmes Essen, Lagerfeuer und schnelles Laufen können vor Frostbeulen schützen. Einige Gebäude liefern einen mäßigen Schutz vor Kälte.\n\nDein Charakter kann nur ein bestimmtes Gewicht mit sich rumschleppen. Es ist bei jedem Charakter unterschiedlich und hängt von der Stärker ab. Wenn das Gewicht überschritten wurde, ist dein Charakter überlastet und kann nicht mehr rennen. Ausserdem wird der Charakter schneller müde, wenn er überlastet ist.\n\nDie Kapazität des Inventars kann durch extra Taschen und Rucksäcke erweitert werden.\n\nDiese extra Taschen, Rucksäcke oder Beutel lassen sich in der Welt finden und können ganz einfach im Inventar angelegt werden.\n\nDein Charakter kann nicht angreifen, während er rennt. Sowie er einen Agriff startet, geht er automatisch langsamer. Wenn du mit einer gezückten Waffe rennst und zum Angriff übergehst, beginnt dein Charakter langsamer zu laufen und erst ab dem nächsten Mausklick greift er an. Bist du jedoch schon am Gehen oder Kriechen, kannst du sofort angreifen.",
+                "topics" : {}
+            },
+            "rest" : {
+                "name" : "Rast",
+                "text" : "Dein Charakter kann auf Bettmatratzen oder in leeren Badewannen schlafen, aber sei dir Gewiss, dass du einen sicheren Rastplatz gewählt hast. Feinde könnten dich angreifen, während du schläfst. Ist dein Charakter schwer verwundet oder verliert  Gesundheitspunkte, wird er nicht in der Lage sein zu schlafen bis er sich genug geheilt hat.",
+                "topics" : {}
+            },
+            "hiding" : {
+                "name" : "Verstecken",
+                "text" : "Dein Charakter kann sich in großen Kleiderschränken, Latrinen, Müllcontainern, Telefonhäuschen und einigen Verkaufsständen verstecken.",
+                "topics" : {}
+            },
+            "vehicles" : {
+                "name" : "Fahrzeuge",
+                "text" : "Ein voll funktionsfähiges Fahrzeug ist eine Rarität in der Quarantänezone Duga - 40. Aber es gibt einige die man reparieren kann, wenn man geschickt genug ist und die nötigen Teile hat.",
+                "topics" : {}
+            }
+        }
+    },
+    "crafting" : {
+        "name" : "Handwerk",
+        "text" : "Handwerk erlaubt dir bestimmte Gegenstände, die du eingesammelt hast, zusammenzufügen und etwas neues daraus herzustellen. Vergiss aber nicht, dass sie sich in deinem Inventar befinden müssen, damit du sie benutzen kannst.  Einige kannst du in deinem Inventar auseinandernehmen, um die Einzelteile wiederzuverwenden (z.B. kannst du die Seiten eines Buches ausreißen, um Papier zu gewinnen oder eine Taschenlampe auseinandernehmen und dessen Batterien einsammeln).\n\nDie einfacheren Gegenstände brauchen keine besondere handwerkliche Fähigkeiten und stehen deinem Charakter von Anfang an zur Verfügung. Je höher deine handwerkliche Fähigkeit ansteigt, desto komplexere Dinge wirst du herstellen können.",
+        "topics" : {}
+        }
+    }
+}

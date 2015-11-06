@@ -470,6 +470,7 @@
 	"ui.message.no_fuel_to_move" : "Moving is not possible, the fuel tank is empty!",
 	"ui.message.campfire_kindled" : "Campfire kindled.\n'{0}'x{1} consumed.",
 	"ui.message.campfire_choked" : "Campfire choked.",
+	"ui.message.cant_pick_up" : "Can't pick up {0}. Too heavy",
 
 	"ui.main.vc_speed" : "Virtual Cursor Speed",
 	"ui.main.vc_scroll_speed" : "Scroll Speed",
@@ -493,4 +494,5 @@
 	"string.skip" : "Skip",
 	"ui.main.gamepad_hint" : "Control Hints",
 	"ui.action.cook" : "Cook",
+	"ui.action.put_in_container" : "Put in {0}",
 }

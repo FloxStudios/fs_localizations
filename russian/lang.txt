@@ -76,7 +76,7 @@
 	"ui.message.craft_failed" : "Крафт невозможен!",
 	"ui.message.rebind_key" : "Ожидается ввод\n\nили нажмите \"Esc\" для отмены",
 	"ui.message.picked_up" : "Подобрано {0}",
-	"ui.message.cant_pick_up" : "Не могу подобрать {0}",
+	"ui.message.cant_pick_up" : "Не могу подобрать {0}. Слишком тяжело",
 		
 	"ui.hint.you_need_to_gather" : "Нужен '{0}' чтобы собрать '{1}'!",
 	"ui.hint.extract" : "Добыть '{0}'",
@@ -144,6 +144,7 @@
 	"ui.action.open_door" : "Открыть дверь",
 	"ui.action.close_door" : "Закрыть дверь",
 	"ui.action.examine" : "Изучить",
+	"ui.action.put_in_container" : "Положить в {0}",
 	"ui.action.choke_fire" : "Потушить огонь",
 	"ui.action.kindle_fire" : "Разжечь огонь",
 	"ui.action.recharge_flashlight" : "Перезарядить фонарик",

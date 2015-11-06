@@ -460,6 +460,10 @@
 	"d.ar_h_nemostor_outfit" : "Armadura pesada de los exploradores de Nemostor.",
 	"ar_hockey_helmet" : "Casco de Hockey",
 	"d.ar_hockey_helmet" : "Casco de plástico de Hockey.",
+    "ar_fur_coat" : "Fur Coat",
+	"d.ar_fur_coat" : "Thick animal hides crudely put together. Judging by its look the person who made it wasn't familiar with tailoring. This simple clothing provides excellent protection from cold.",
+    "ar_rein_fur_coat" : "Reinforced Fur Coat",
+	"d.ar_rein_fur_coat" : "Somebody strapped several steel plates to a handmade fur coat to increase its sturdiness. It is heavy and looks fairly odd."
 
 	// Supplies
 	"sup_water_flask" : "Frasco de agua",
@@ -530,6 +534,8 @@
 	"d.sup_roasted_fish" : "La comida cocinada repone hambre y temperatura.",
 	"sup_wild_berries" : "Bayas Silvestres Congeladas",
 	"d.sup_wild_berries" : "Ayuda a expulsar las toxinas venenosas del cuerpo.",
+	"sup_roasted_an_meat" : "Roasted Steak",
+	"d.sup_roasted_an_meat" : "A massive juicy steak, slightly burnt on one side.",
 
 	// Medicine
 	"med_pfa_kit" : "Equipo P.P.A.",
@@ -806,7 +812,12 @@
     "d.mis_dog_collar" : "Finik - rallado en la chapa del nombre.",
     "mis_finger" : "Finger",
     "d.mis_finger" : "Somebody's finger. It was beaten off clean by some animal.",
-
+    "mis_animal_meat" : "Raw Meat",
+    "d.mis_animal_meat" : "A huge chunk of raw meat without any sign of the parasite. Can be cooked on fire.",
+    "mis_hide" : "Hide",
+    "d.mis_hide" : "Hide of a some wild animal.",
+	"mis_small_hide" : "Small Hide",
+    "d.miss_small_hide" : "Hide of a some small animal.",
 	
 	// Notes
 	"note_nameless" : "Nota de un Sin Nombre",
@@ -1203,5 +1214,19 @@
 	"intr_pharm_big_shel" : "Gabinete",
 	"intr_pharm_mid_shel" : "Estantería",
 	"intr_pharm_small_shel" : "Gabinete",
+
+	//Animals
+	"bear" : "Bear",
+	"d.bear" : "",
+	"boar" : "Boar",
+	"d.boar" : "",
+	"deer" : "Deer",
+	"d.deer" : "",
+    "fox" : "Fox",
+	"d.fox" : "",
+	"rabbit" : "Rabbit",
+	"d.rabbit" : "",
+	"moose" : "Moose",
+	"d.moose" : "",
 }
 

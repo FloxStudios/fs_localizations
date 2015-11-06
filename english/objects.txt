@@ -324,6 +324,11 @@
 	"d.boy" : "",
     "explorer" : "Explorer",
 	"d.explorer" : "",
+	//Animals
+	"bear" : "Bear",
+	"d.bear" : "",
+	"boar" : "Boar",
+	"d.boar" : "",
 
 	// Vehicles
 	"gaz_20" : "Gaz M20",
@@ -460,6 +465,11 @@
 	"d.ar_h_nemostor_outfit" : "Heavy armor of Nemostor scouts.",
 	"ar_hockey_helmet" : "Hockey Helmet",
 	"d.ar_hockey_helmet" : "Plastic hockey helmet.",
+	"ar_fur_coat" : "Fur Coat",
+	"d.ar_fur_coat" : "Thick animal hides crudely put together. Judging by its look the person who made it wasn't familiar with tailoring. This simple clothing provides excellent protection from cold.",
+    "ar_rein_fur_coat" : "Reinforced Fur Coat",
+	"d.ar_rein_fur_coat" : "Somebody strapped several steel plates to a handmade fur coat to increase its sturdiness. It is heavy and looks fairly odd."
+
 
 	// Supplies
 	"sup_water_flask" : "Water Flask",
@@ -530,7 +540,9 @@
 	"d.sup_roasted_fish" : "Cooked food restores hunger and temperature.",
 	"sup_wild_berries" : "Frozen Wild Berries",
 	"d.sup_wild_berries" : "Drives the poisoness toxins out of the body.",
-
+    "sup_roasted_an_meat" : "Roasted Steak",
+	"d.sup_roasted_an_meat" : "A massive juicy steak, slightly burnt on one side.",
+	
 	// Medicine
 	"med_pfa_kit" : "P.F.A. Kit",
 	"d.med_pfa_kit" : "Personal First Aid Kit.",
@@ -804,7 +816,12 @@
     "d.mis_dog_collar" : "Finik - scratched on the name tag.",
     "mis_finger" : "Finger",
     "d.mis_finger" : "Somebody's finger. It was beaten off clean by some animal.",
-    
+    "mis_animal_meat" : "Raw Meat",
+    "d.mis_animal_meat" : "A huge chunk of raw meat without any sign of the parasite. Can be cooked on fire.",
+    "mis_hide" : "Hide",
+    "d.mis_hide" : "Hide of a some wild animal.",
+    "mis_small_hide" : "Small Hide",
+    "d.miss_small_hide" : "Hide of a some small animal.",
 
 	// Notes
 	"note_nameless" : "Note Of A Nameless",
@@ -1203,4 +1220,18 @@
 	"intr_pharm_big_shel" : "Cabinet",
 	"intr_pharm_mid_shel" : "Shelves",
 	"intr_pharm_small_shel" : "Cabinet",
+	
+		//Animals
+	"bear" : "Bear",
+	"d.bear" : "",
+	"boar" : "Boar",
+	"d.boar" : "",
+	"deer" : "Deer",
+	"d.deer" : "",
+    "fox" : "Fox",
+	"d.fox" : "",
+	"rabbit" : "Rabbit",
+	"d.rabbit" : "",
+	"moose" : "Moose",
+	"d.moose" : "",
 }

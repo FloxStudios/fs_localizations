@@ -454,6 +454,10 @@
 	"d.ar_h_nemostor_outfit" : "Armure lourde des éclaireurs de Nemostor.",
 	"ar_hockey_helmet" : "Casque de Hockey",
 	"d.ar_hockey_helmet" : "Casque de hockey en plastique.",
+	"ar_fur_coat" : "Fur Coat",
+	"d.ar_fur_coat" : "Thick animal hides crudely put together. Judging by its look the person who made it wasn't familiar with tailoring. This simple clothing provides excellent protection from cold.",
+    "ar_rein_fur_coat" : "Reinforced Fur Coat",
+	"d.ar_rein_fur_coat" : "Somebody strapped several steel plates to a handmade fur coat to increase its sturdiness. It is heavy and looks fairly odd."
 
 	// Supplies
 	"sup_water_flask" : "Gourde d'eau",
@@ -524,6 +528,8 @@
 	"d.sup_roasted_fish" : "Les plats cuisinés restaurent la faim et la température.",
 	"sup_wild_berries" : "Baies sauvages gélées",
 	"d.sup_wild_berries" : "Elimine les toxines et poisons de votre corp.",
+	"sup_roasted_an_meat" : "Roasted Steak",
+	"d.sup_roasted_an_meat" : "A massive juicy steak, slightly burnt on one side.",
 
 	// Medicine
 	"med_pfa_kit" : "P.F.A. Kit",
@@ -778,6 +784,28 @@
 	"d.mis_tablecloth" : "Nappe propre, peut être déchirée en longs morceaux pour faire quelques bandages.",
 	"mis_calculator" : "Calculette",
 	"d.mis_calculator" : "Vieille calculette, rouillée. Surprenant que sa batterie soit encore chargée.",
+	"mis_engine" : "Cylinder Head",
+	"d.mis_engine" : "Cylinder head of V 14 engine. One of the key parts needed to repair the Explorer.",
+	"mis_gearbox" : "Gearbox",
+	"d.mis_gearbox" : "Old gearbox, strong enough to handle the massive torque of V 14. One of the key parts needed to repair the Explorer.",
+    "mis_radiator" : "Radiator",
+	"d.mis_radiator" : "Massive copper radiator, keeps big engines from overheating. One of the key parts needed to repair the Explorer.",
+	"mis_key_docks" : "Docks' Key",
+    "d.mis_key_docks" : "A rusty key supposedly should open some door in the Docks Zvezdochka",
+    "mis_b_watch" : "Broken Wristwatch",
+    "d.mis_b_watch" : "Despite its immaculate condition on the surface, something inside is definitely broken. The back lid engraved with - To the best friend and brother!",
+    "mis_doll" : "Plastic Doll",
+    "d.mis_doll" : "Old-fashioned plastic doll.",
+    "mis_dog_collar" : "Dog Collar",
+    "d.mis_dog_collar" : "Finik - scratched on the name tag.",
+    "mis_finger" : "Finger",
+    "d.mis_finger" : "Somebody's finger. It was beaten off clean by some animal.",
+    "mis_animal_meat" : "Raw Meat",
+    "d.mis_animal_meat" : "A huge chunk of raw meat without any sign of the parasite. Can be cooked on fire.",
+    "mis_hide" : "Hide",
+    "d.mis_hide" : "Hide of a some wild animal.",
+    "mis_small_hide" : "Small Hide",
+    "d.miss_small_hide" : "Hide of a some small animal.",
 
 	// Notes
 	"note_nameless" : "Note du SansNom",
@@ -1172,4 +1200,19 @@
 	"intr_pharm_big_shel" : "Petit placard",
 	"intr_pharm_mid_shel" : "Etagère",
 	"intr_pharm_small_shel" : "Petit placard",
+
+
+	//Animals
+	"bear" : "Bear",
+	"d.bear" : "",
+	"boar" : "Boar",
+	"d.boar" : "",
+	"deer" : "Deer",
+	"d.deer" : "",
+    "fox" : "Fox",
+	"d.fox" : "",
+	"rabbit" : "Rabbit",
+	"d.rabbit" : "",
+	"moose" : "Moose",
+	"d.moose" : "",
 }

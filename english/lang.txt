@@ -77,7 +77,7 @@
 	"ui.message.locked_remotely" : "This lock can be opened remotely.",
 	"ui.message.rebind_key" : "Press any key\n\nor press \"Esc\" to cancel",
 	"ui.message.picked_up" : "Picked up {0}",
-	"ui.message.cant_pick_up" : "Can't pick up this {0}",
+	"ui.message.cant_pick_up" : "Can't pick up {0}. Too heavy",
 		
 	"ui.hint.you_need_to_gather" : "You need '{0}' to gather '{1}'!",
 	"ui.hint.extract" : "Extract '{0}'",
@@ -136,6 +136,7 @@
 	"ui.action.exit" : "Exit",
 	"ui.action.pick_up" : "Pick up",
 	"ui.action.search" : "Search",
+	"ui.action.put_in_container" : "Put in {0}",
 	"ui.action.drive" : "Drive",
 	"ui.action.inspect" : "Inspect",
 	"ui.action.snuff_out" : "Snuff out",
